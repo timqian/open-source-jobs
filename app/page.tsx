@@ -40,7 +40,7 @@ export default async function Home() {
             Open Source Jobs
           </h1>
           <p className="text-xl text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto animate-fade-in">
-            Discover opportunities at companies that value open source contribution
+            List of Open Source projects offering jobs.
           </p>
         </div>
       </div>

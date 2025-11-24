@@ -10,7 +10,7 @@ export default async function Home() {
         <div className="flex justify-between items-center mb-8">
           <h1 className="text-3xl font-bold tracking-tight">Open Source Jobs</h1>
           <a
-            href="https://github.com/timqian/open-source-jobs"
+            href="https://github.com/timqian/open-source-jobs/blob/main/repos.csv"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2"

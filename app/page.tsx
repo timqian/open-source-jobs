@@ -1,12 +1,14 @@
 import { getJobs } from "@/lib/csv";
 import { JobList } from "@/components/job-list";
+import { BackgroundGrid } from "@/components/background-grid";
 
 export default async function Home() {
   const jobs = await getJobs();
 
   return (
-    <div className="min-h-screen bg-white dark:bg-black font-sans text-zinc-900 dark:text-zinc-100">
-      <main className="max-w-4xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+    <div className="relative min-h-screen font-sans text-zinc-900 dark:text-zinc-100">
+      <BackgroundGrid />
+      <main className="relative max-w-4xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center mb-8">
           <h1 className="text-3xl font-bold tracking-tight">Open Source Jobs</h1>
           <a

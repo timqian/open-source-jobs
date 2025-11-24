@@ -5,26 +5,46 @@ export default async function Home() {
   const jobs = await getJobs();
 
   return (
-    <div className="min-h-screen bg-white dark:bg-black font-sans text-zinc-900 dark:text-zinc-100">
-      <main className="max-w-4xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center mb-8">
-          <h1 className="text-3xl font-bold tracking-tight">Open Source Jobs</h1>
-          <a
-            href="https://github.com/timqian/open-source-jobs/blob/main/repos.csv"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2"
-          >
-            Edit
-          </a>
-        </div>
+    <div className="min-h-screen bg-gradient-to-br from-zinc-50 via-white to-zinc-50 dark:from-zinc-950 dark:via-black dark:to-zinc-950 font-sans text-zinc-900 dark:text-zinc-100">
+      {/* Background decoration */}
+      <div className="fixed inset-0 -z-10 overflow-hidden pointer-events-none">
+        <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-100/20 dark:bg-blue-900/10 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-purple-100/20 dark:bg-purple-900/10 rounded-full blur-3xl"></div>
+      </div>
 
-        <div className="mb-8 text-lg text-zinc-600 dark:text-zinc-400">
-          <p>
-            A list of companies that hire for open source roles.
+      {/* Navigation */}
+      <nav className="sticky top-0 z-50 bg-white/80 dark:bg-black/80 backdrop-blur-md border-b border-zinc-200">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center h-13">
+            <div className="flex items-center gap-3">
+              <a href="/" className="flex items-center gap-2 text-lg font-semibold hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors">
+                <img src="/favicon.ico" alt="Logo" className="w-8 h-8" />
+                {/* Open Source Jobs */}
+              </a>
+            </div>
+            <a
+              href="https://github.com/timqian/open-source-jobs/blob/main/repos.csv"
+              className="inline-flex items-center justify-center rounded-md bg-zinc-900 dark:bg-zinc-100 text-white dark:text-zinc-900 hover:bg-zinc-700 dark:hover:bg-zinc-300 text-sm font-medium px-4 py-2 transition-colors"
+            >
+              Post a job
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      {/* Hero Section */}
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-8">
+        <div className="text-center mb-12">
+          <h1 className="text-5xl sm:text-6xl font-bold tracking-tight bg-gradient-to-r from-zinc-900 via-zinc-700 to-zinc-900 dark:from-zinc-100 dark:via-zinc-400 dark:to-zinc-100 bg-clip-text text-transparent mb-4 animate-fade-in">
+            Open Source Jobs
+          </h1>  
+          <p className="text-xl text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto animate-fade-in">
+            Discover opportunities at companies that value open source contribution
           </p>
         </div>
+      </div>
 
+      <main className="max-w-5xl mx-auto pb-20 px-4 sm:px-6 lg:px-8">
         <JobList jobs={jobs} />
       </main>
     </div>

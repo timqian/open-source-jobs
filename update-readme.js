@@ -71,9 +71,14 @@ markdownTable += '|------------|-------------|----------|\n';
 for (const row of rows) {
     const repoUrl = row.repo.includes('http') ? row.repo : `https://github.com/${row.repo}`;
     const repoLink = `[${row.repo}](${repoUrl})`;
+
+    // 添加 star count badge
+    const starBadge = `![Stars](https://img.shields.io/github/stars/${row.repo}?style=social&label=%20)`;
+    const repoWithBadge = `${repoLink} ${starBadge}`;
+
     const jobLink = row.jobPage ? `[Apply](${row.jobPage})` : '';
 
-    markdownTable += `| ${repoLink} | ${row.desc} | ${jobLink} |\n`;
+    markdownTable += `| ${repoWithBadge} | ${row.desc} | ${jobLink} |\n`;
 }
 
 // 读取现有的 README

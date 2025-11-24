@@ -1,5 +1,6 @@
 import { getJobs } from "@/lib/csv";
 import { JobList } from "@/components/job-list";
+import Image from "next/image";
 
 export default async function Home() {
   const jobs = await getJobs();
@@ -18,7 +19,7 @@ export default async function Home() {
           <div className="flex justify-between items-center h-13">
             <div className="flex items-center gap-3">
               <a href="/" className="flex items-center gap-2 text-lg font-semibold hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors">
-                <img src="/favicon.ico" alt="Logo" className="w-8 h-8" />
+                <Image src="/favicon.ico" alt="Logo" width={32} height={32} className="w-8 h-8" unoptimized />
                 {/* Open Source Jobs */}
               </a>
             </div>
@@ -37,7 +38,7 @@ export default async function Home() {
         <div className="text-center mb-12">
           <h1 className="text-5xl sm:text-6xl font-bold tracking-tight bg-gradient-to-r from-zinc-900 via-zinc-700 to-zinc-900 dark:from-zinc-100 dark:via-zinc-400 dark:to-zinc-100 bg-clip-text text-transparent mb-4 animate-fade-in">
             Open Source Jobs
-          </h1>  
+          </h1>
           <p className="text-xl text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto animate-fade-in">
             Discover opportunities at companies that value open source contribution
           </p>

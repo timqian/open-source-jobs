@@ -64,6 +64,7 @@ rows.sort((a, b) => a.repoName.localeCompare(b.repoName));
 
 // 生成 Markdown 表格
 let markdownTable = '\n## Job List\n\n';
+markdownTable += '> Note: This list is generated automatically. Please do not edit it manually. Visit https://open-source-jobs.com to filter/submit jobs.\n\n';
 markdownTable += '| Repository | Description | Job Page |\n';
 markdownTable += '|------------|-------------|----------|\n';
 

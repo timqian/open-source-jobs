@@ -10,6 +10,7 @@
     "update-repos": "npx tsx scripts/update-repos.ts"
   },
   "dependencies": {
+    "@radix-ui/react-select": "^2.2.6",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.554.0",

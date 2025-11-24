@@ -1,59 +1,59 @@
-Repository,Description,Job Page
-elastic/elasticsearch,"Open Source, Distributed, RESTful Search Engine",https://www.elastic.co/about/careers/
-serverless/serverless,Serverless Framework,https://serverless.com/company/jobs/
-Unitech/pm2,Node.js Production Process Manager,https://pm2.io/jobs/
-grafana/grafana,The open platform for beautiful analytics and monitoring,https://grafana.com/about/hiring
-pingcap/tidb,A distributed HTAP database,https://pingcap.com/recruit-cn/join/
-mongodb/mongo,The MongoDB Database,https://www.mongodb.com/careers
-cockroachdb/cockroach,"The open source, cloud-native SQL database",https://www.cockroachlabs.com/careers/
-jenkinsci/jenkins,Open Source Automation Server,https://www.cloudbees.com/careers/
-odoo/odoo,Open Source Apps To Grow Your Business,https://www.odoo.com/jobs
-commaai/openpilot,Open source driving agent,https://comma.ai/jobs
-saltstack/salt,Make software for complex systems management at scale,https://www.saltstack.com/company/careers/
-dgraph-io/dgraph,"Fast, Distributed Graph DB",https://dgraph.io/careers
-gradle/gradle,"Adaptable, fast automation for all",https://gradle.com/careers/
-reactioncommerce/reaction,"Customizable, real-time reactive, JavaScript commerce platform",https://www.reactioncommerce.com/careers
-arangodb/arangodb,A native multi-model database,https://www.arangodb.com/jobs/
-hasura/graphql-engine,Instant Realtime GraphQL on Postgres,https://hasura.io/careers
-draios/sysdig,A universal system visibility tool with native support for containers,https://sysdig.com/jobs/
-nodesource/distributions,Secure. Reliable. Extensible. Node.js.,https://nodesource.com/careers
-paritytech/parity-ethereum,A Ethereum Client,https://www.parity.io/jobs
-RasaHQ/rasa_nlu,Natural language understanding,https://angel.co/rasahq/jobs
-mapbox/mapbox-gl-js,"JavaScript library for interactive, customizable vector maps on the web",https://www.mapbox.com/careers/
-PrestaShop/PrestaShop,A fully scalable open source ecommerce solution,http://www.jobs.net/jobs/prestashop/en-gb/
-SonarSource/SonarQube,The leading Open Source product for continuous code quality,http://sonarsource.com/company/jobs/
-zeek/zeek,Zeek (formerly Bro) is a powerful network analysis framework.,https://corelight.com/company/careers
-hazelcast/hazelcast,In-Memory Data Grid,https://hazelcast.com/company/careers/
-rundeck/rundeck,An open source automation service,https://www.rundeck.com/careers
-confluentinc/ksql,The Streaming SQL Engine for Apache Kafka,https://www.confluent.io/careers/
-bcoin-org/bcoin,JavaScript bitcoin library for Node.js and browsers,https://angel.co/company/purse/jobs/90956-open-source-protocol-developer-bcoin
-CartoDB/cartodb,Location Intelligence & Data Visualization tool,https://carto.com/careers/
-docker/docker-ce,Providing a standardized packaging format for diverse applications,https://www.docker.com/careers
-datawire/ambassador,Kubernetes-native API gateway for microservices,https://www.datawire.io/careers/
-crate/crate,Distributed SQL database,https://crate.io/jobs/
-npm/cli,A package manager for JavaScript,https://www.npmjs.com/jobs
-bitnami/minideb,A small image based on Debian,https://bitnami.com/careers
-sylabs/singularity,Linux container technology optimized for HPC workloads,https://sylabs.io/resources/jobs
-pimcore/pimcore,"CMS/CMF, MDM, PIM, DAM and E-Commerce",https://pimcore.com/en/about/careers
-YugaByte/yugabyte-db,SQL database,https://hire.withgoogle.com/public/jobs/yugabyte
-kaltura/nginx-vod-module,NGINX-based MP4 Repackager,https://corp.kaltura.com/company/careers/
-unsplash/unsplash-js,Building the internet's open library of freely usable visuals,https://unsplash.com/hiring
-SeldonIO/seldon-core,Machine Learning Deployment for Kubernetes,https://www.seldon.io/careers/
-fossas/fossa-cli,Dependency analysis for any codebase,https://fossa.com/careers
-oroinc/crm,Main OroCRM package with core functionality.,https://oroinc.com/careers
-amazeeio/lagoon,Build and Deploy System for OpenShift & Kubernetes,https://amazee.bamboohr.com/jobs/
-irccloud/ios,Chat on IRC from anywhere,https://www.irccloud.com/jobs
-ezsystems/ezplatform,Professional CMS,https://ez.no/About-eZ/Careers
-platformsh/platformsh-cli,Continuous Deployment Cloud Hosting,https://platform.sh/company/careers
-DECENTfoundation/DECENT-Network,Blockchain You Can Easily Build On,https://decent.ch/careers/
-vizorvr/patches,A visual programming editor for building WebVR and WebGL experiences,https://site.vizor.io/jobs
-jetbrains/kotlin,"Open Source, Static typed multiplatform programming language",https://www.jetbrains.com/careers/jobs/
-jetbrains/intellij-community,"Open Source, The Java IDE for Professional Developers",https://www.jetbrains.com/careers/jobs/
-arduino/Arduino,open-source electronics prototyping platform,https://www.arduino.cc/en/Careers/Home
-codecombat/codecombat,Game for learning how to code,https://codecombat.com/about#careers
-getsentry/sentry,"Cross-platform application monitoring, with a focus on error reporting",https://sentry.io/careers/
-slic3r/Slic3r,Open Source 3D printing toolbox,https://slic3r.org/blog/job-opportunities/
-chaos-genius/chaos_genius,ML powered analytics engine for outlier/anomaly detection and root cause analysis,https://www.chaosgenius.io/about.html
-metabase/metabase,"The simplest, fastest way to get business intelligence and analytics to everyone in your company",https://www.metabase.com/jobs/
-mattermost/mattermost-server,Mattermost is an open source platform for secure collaboration across the entire software development lifecycle.,https://jobs.lever.co/mattermost/
-mattermost/focalboard,"Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana.",https://jobs.lever.co/mattermost/
+Repository,Description,Job Page,Tags,Language
+elastic/elasticsearch,"Open Source, Distributed, RESTful Search Engine",https://www.elastic.co/about/careers/,,
+serverless/serverless,Serverless Framework,https://serverless.com/company/jobs/,,
+Unitech/pm2,Node.js Production Process Manager,https://pm2.io/jobs/,,
+grafana/grafana,The open platform for beautiful analytics and monitoring,https://grafana.com/about/hiring,,
+pingcap/tidb,A distributed HTAP database,https://pingcap.com/recruit-cn/join/,,
+mongodb/mongo,The MongoDB Database,https://www.mongodb.com/careers,,
+cockroachdb/cockroach,"The open source, cloud-native SQL database",https://www.cockroachlabs.com/careers/,,
+jenkinsci/jenkins,Open Source Automation Server,https://www.cloudbees.com/careers/,,
+odoo/odoo,Open Source Apps To Grow Your Business,https://www.odoo.com/jobs,,
+commaai/openpilot,Open source driving agent,https://comma.ai/jobs,,
+saltstack/salt,Make software for complex systems management at scale,https://www.saltstack.com/company/careers/,,
+dgraph-io/dgraph,"Fast, Distributed Graph DB",https://dgraph.io/careers,,
+gradle/gradle,"Adaptable, fast automation for all",https://gradle.com/careers/,,
+reactioncommerce/reaction,"Customizable, real-time reactive, JavaScript commerce platform",https://www.reactioncommerce.com/careers,,
+arangodb/arangodb,A native multi-model database,https://www.arangodb.com/jobs/,,
+hasura/graphql-engine,Instant Realtime GraphQL on Postgres,https://hasura.io/careers,,
+draios/sysdig,A universal system visibility tool with native support for containers,https://sysdig.com/jobs/,,
+nodesource/distributions,Secure. Reliable. Extensible. Node.js.,https://nodesource.com/careers,,
+paritytech/parity-ethereum,A Ethereum Client,https://www.parity.io/jobs,,
+RasaHQ/rasa_nlu,Natural language understanding,https://angel.co/rasahq/jobs,,
+mapbox/mapbox-gl-js,"JavaScript library for interactive, customizable vector maps on the web",https://www.mapbox.com/careers/,,
+PrestaShop/PrestaShop,A fully scalable open source ecommerce solution,http://www.jobs.net/jobs/prestashop/en-gb/,,
+SonarSource/SonarQube,The leading Open Source product for continuous code quality,http://sonarsource.com/company/jobs/,,
+zeek/zeek,Zeek (formerly Bro) is a powerful network analysis framework.,https://corelight.com/company/careers,,
+hazelcast/hazelcast,In-Memory Data Grid,https://hazelcast.com/company/careers/,,
+rundeck/rundeck,An open source automation service,https://www.rundeck.com/careers,,
+confluentinc/ksql,The Streaming SQL Engine for Apache Kafka,https://www.confluent.io/careers/,,
+bcoin-org/bcoin,JavaScript bitcoin library for Node.js and browsers,https://angel.co/company/purse/jobs/90956-open-source-protocol-developer-bcoin,,
+CartoDB/cartodb,Location Intelligence & Data Visualization tool,https://carto.com/careers/,,
+docker/docker-ce,Providing a standardized packaging format for diverse applications,https://www.docker.com/careers,,
+datawire/ambassador,Kubernetes-native API gateway for microservices,https://www.datawire.io/careers/,,
+crate/crate,Distributed SQL database,https://crate.io/jobs/,,
+npm/cli,A package manager for JavaScript,https://www.npmjs.com/jobs,,
+bitnami/minideb,A small image based on Debian,https://bitnami.com/careers,,
+sylabs/singularity,Linux container technology optimized for HPC workloads,https://sylabs.io/resources/jobs,,
+pimcore/pimcore,"CMS/CMF, MDM, PIM, DAM and E-Commerce",https://pimcore.com/en/about/careers,,
+YugaByte/yugabyte-db,SQL database,https://hire.withgoogle.com/public/jobs/yugabyte,,
+kaltura/nginx-vod-module,NGINX-based MP4 Repackager,https://corp.kaltura.com/company/careers/,,
+unsplash/unsplash-js,Building the internet's open library of freely usable visuals,https://unsplash.com/hiring,,
+SeldonIO/seldon-core,Machine Learning Deployment for Kubernetes,https://www.seldon.io/careers/,,
+fossas/fossa-cli,Dependency analysis for any codebase,https://fossa.com/careers,,
+oroinc/crm,Main OroCRM package with core functionality.,https://oroinc.com/careers,,
+amazeeio/lagoon,Build and Deploy System for OpenShift & Kubernetes,https://amazee.bamboohr.com/jobs/,,
+irccloud/ios,Chat on IRC from anywhere,https://www.irccloud.com/jobs,,
+ezsystems/ezplatform,Professional CMS,https://ez.no/About-eZ/Careers,,
+platformsh/platformsh-cli,Continuous Deployment Cloud Hosting,https://platform.sh/company/careers,,
+DECENTfoundation/DECENT-Network,Blockchain You Can Easily Build On,https://decent.ch/careers/,,
+vizorvr/patches,A visual programming editor for building WebVR and WebGL experiences,https://site.vizor.io/jobs,,
+jetbrains/kotlin,"Open Source, Static typed multiplatform programming language",https://www.jetbrains.com/careers/jobs/,,
+jetbrains/intellij-community,"Open Source, The Java IDE for Professional Developers",https://www.jetbrains.com/careers/jobs/,,
+arduino/Arduino,open-source electronics prototyping platform,https://www.arduino.cc/en/Careers/Home,,
+codecombat/codecombat,Game for learning how to code,https://codecombat.com/about#careers,,
+getsentry/sentry,"Cross-platform application monitoring, with a focus on error reporting",https://sentry.io/careers/,,
+slic3r/Slic3r,Open Source 3D printing toolbox,https://slic3r.org/blog/job-opportunities/,,
+chaos-genius/chaos_genius,ML powered analytics engine for outlier/anomaly detection and root cause analysis,https://www.chaosgenius.io/about.html,,
+metabase/metabase,"The simplest, fastest way to get business intelligence and analytics to everyone in your company",https://www.metabase.com/jobs/,,
+mattermost/mattermost-server,Mattermost is an open source platform for secure collaboration across the entire software development lifecycle.,https://jobs.lever.co/mattermost/,,
+mattermost/focalboard,"Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana.",https://jobs.lever.co/mattermost/,,

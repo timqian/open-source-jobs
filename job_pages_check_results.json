@@ -1,0 +1,662 @@
+[
+  {
+    "url": "https://pingcap.com/recruit-cn/join/",
+    "company": "pingcap/tidb",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "https://pingcap.com/recruit-cn/join/",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "https://www.elastic.co/about/careers/",
+    "company": "elastic/elasticsearch",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "https://www.elastic.co/about/careers/",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "https://serverless.com/company/jobs/",
+    "company": "serverless/serverless",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "https://serverless.com/company/jobs/",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "https://www.cloudbees.com/careers/",
+    "company": "jenkinsci/jenkins",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "https://www.cloudbees.com/careers/",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "https://www.odoo.com/jobs",
+    "company": "odoo/odoo",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "https://www.odoo.com/jobs",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "https://grafana.com/about/hiring",
+    "company": "grafana/grafana",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "https://grafana.com/about/hiring",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "https://pm2.io/jobs/",
+    "company": "Unitech/pm2",
+    "accessible": false,
+    "status_code": null,
+    "final_url": "https://pm2.io/jobs/",
+    "error": "Connection error",
+    "is_recruiting_page": null,
+    "notes": [
+      "Unable to connect to server"
+    ]
+  },
+  {
+    "url": "https://www.mongodb.com/careers",
+    "company": "mongodb/mongo",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "https://www.mongodb.com/careers",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "https://www.cockroachlabs.com/careers/",
+    "company": "cockroachdb/cockroach",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "https://www.cockroachlabs.com/careers/",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "https://dgraph.io/careers",
+    "company": "dgraph-io/dgraph",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "https://dgraph.io/careers",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "https://comma.ai/jobs",
+    "company": "commaai/openpilot",
+    "accessible": false,
+    "status_code": null,
+    "final_url": "https://comma.ai/jobs",
+    "error": "Connection error",
+    "is_recruiting_page": null,
+    "notes": [
+      "Unable to connect to server"
+    ]
+  },
+  {
+    "url": "https://www.saltstack.com/company/careers/",
+    "company": "saltstack/salt",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "https://www.saltstack.com/company/careers/",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "https://gradle.com/careers/",
+    "company": "gradle/gradle",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "https://gradle.com/careers/",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "https://www.arangodb.com/jobs/",
+    "company": "arangodb/arangodb",
+    "accessible": false,
+    "status_code": null,
+    "final_url": "https://www.arangodb.com/jobs/",
+    "error": "Connection error",
+    "is_recruiting_page": null,
+    "notes": [
+      "Unable to connect to server"
+    ]
+  },
+  {
+    "url": "https://hasura.io/careers",
+    "company": "hasura/graphql-engine",
+    "accessible": false,
+    "status_code": null,
+    "final_url": "https://hasura.io/careers",
+    "error": "Connection error",
+    "is_recruiting_page": null,
+    "notes": [
+      "Unable to connect to server"
+    ]
+  },
+  {
+    "url": "https://www.parity.io/jobs",
+    "company": "paritytech/parity-ethereum",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "https://www.parity.io/jobs",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "http://www.jobs.net/jobs/prestashop/en-gb/",
+    "company": "PrestaShop/PrestaShop",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "http://www.jobs.net/jobs/prestashop/en-gb/",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "http://sonarsource.com/company/jobs/",
+    "company": "SonarSource/SonarQube",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "http://sonarsource.com/company/jobs/",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "https://sysdig.com/jobs/",
+    "company": "draios/sysdig",
+    "accessible": false,
+    "status_code": null,
+    "final_url": "https://sysdig.com/jobs/",
+    "error": "Connection error",
+    "is_recruiting_page": null,
+    "notes": [
+      "Unable to connect to server"
+    ]
+  },
+  {
+    "url": "https://nodesource.com/careers",
+    "company": "nodesource/distributions",
+    "accessible": false,
+    "status_code": null,
+    "final_url": "https://nodesource.com/careers",
+    "error": "Connection error",
+    "is_recruiting_page": null,
+    "notes": [
+      "Unable to connect to server"
+    ]
+  },
+  {
+    "url": "https://angel.co/rasahq/jobs",
+    "company": "RasaHQ/rasa_nlu",
+    "accessible": false,
+    "status_code": null,
+    "final_url": "https://angel.co/rasahq/jobs",
+    "error": "Connection error",
+    "is_recruiting_page": null,
+    "notes": [
+      "Unable to connect to server"
+    ]
+  },
+  {
+    "url": "https://www.confluent.io/careers/",
+    "company": "confluentinc/ksql",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "https://www.confluent.io/careers/",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "https://hazelcast.com/company/careers/",
+    "company": "hazelcast/hazelcast",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "https://hazelcast.com/company/careers/",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "https://www.mapbox.com/careers/",
+    "company": "mapbox/mapbox-gl-js",
+    "accessible": false,
+    "status_code": null,
+    "final_url": "https://www.mapbox.com/careers/",
+    "error": "Connection error",
+    "is_recruiting_page": null,
+    "notes": [
+      "Unable to connect to server"
+    ]
+  },
+  {
+    "url": "https://corelight.com/company/careers",
+    "company": "zeek/zeek",
+    "accessible": false,
+    "status_code": null,
+    "final_url": "https://corelight.com/company/careers",
+    "error": "Connection error",
+    "is_recruiting_page": null,
+    "notes": [
+      "Unable to connect to server"
+    ]
+  },
+  {
+    "url": "https://angel.co/company/purse/jobs/90956-open-source-protocol-developer-bcoin",
+    "company": "bcoin-org/bcoin",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "https://angel.co/company/purse/jobs/90956-open-source-protocol-developer-bcoin",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "https://www.rundeck.com/careers",
+    "company": "rundeck/rundeck",
+    "accessible": false,
+    "status_code": null,
+    "final_url": "https://www.rundeck.com/careers",
+    "error": "Connection error",
+    "is_recruiting_page": null,
+    "notes": [
+      "Unable to connect to server"
+    ]
+  },
+  {
+    "url": "https://www.npmjs.com/jobs",
+    "company": "npm/cli",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "https://www.npmjs.com/jobs",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "https://sylabs.io/resources/jobs",
+    "company": "sylabs/singularity",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "https://sylabs.io/resources/jobs",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "https://carto.com/careers/",
+    "company": "CartoDB/cartodb",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "https://carto.com/careers/",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "https://crate.io/jobs/",
+    "company": "crate/crate",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "https://crate.io/jobs/",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "https://www.datawire.io/careers/",
+    "company": "datawire/ambassador",
+    "accessible": false,
+    "status_code": null,
+    "final_url": "https://www.datawire.io/careers/",
+    "error": "Connection error",
+    "is_recruiting_page": null,
+    "notes": [
+      "Unable to connect to server"
+    ]
+  },
+  {
+    "url": "https://hire.withgoogle.com/public/jobs/yugabyte",
+    "company": "YugaByte/yugabyte-db",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "https://hire.withgoogle.com/public/jobs/yugabyte",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "https://bitnami.com/careers",
+    "company": "bitnami/minideb",
+    "accessible": false,
+    "status_code": null,
+    "final_url": "https://bitnami.com/careers",
+    "error": "Connection error",
+    "is_recruiting_page": null,
+    "notes": [
+      "Unable to connect to server"
+    ]
+  },
+  {
+    "url": "https://pimcore.com/en/about/careers",
+    "company": "pimcore/pimcore",
+    "accessible": false,
+    "status_code": null,
+    "final_url": "https://pimcore.com/en/about/careers",
+    "error": "Connection error",
+    "is_recruiting_page": null,
+    "notes": [
+      "Unable to connect to server"
+    ]
+  },
+  {
+    "url": "https://corp.kaltura.com/company/careers/",
+    "company": "kaltura/nginx-vod-module",
+    "accessible": false,
+    "status_code": null,
+    "final_url": "https://corp.kaltura.com/company/careers/",
+    "error": "Connection error",
+    "is_recruiting_page": null,
+    "notes": [
+      "Unable to connect to server"
+    ]
+  },
+  {
+    "url": "https://unsplash.com/hiring",
+    "company": "unsplash/unsplash-js",
+    "accessible": false,
+    "status_code": null,
+    "final_url": "https://unsplash.com/hiring",
+    "error": "Connection error",
+    "is_recruiting_page": null,
+    "notes": [
+      "Unable to connect to server"
+    ]
+  },
+  {
+    "url": "https://amazee.bamboohr.com/jobs/",
+    "company": "amazeeio/lagoon",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "https://amazee.bamboohr.com/jobs/",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "https://www.seldon.io/careers/",
+    "company": "SeldonIO/seldon-core",
+    "accessible": false,
+    "status_code": null,
+    "final_url": "https://www.seldon.io/careers/",
+    "error": "Connection error",
+    "is_recruiting_page": null,
+    "notes": [
+      "Unable to connect to server"
+    ]
+  },
+  {
+    "url": "https://fossa.com/careers",
+    "company": "fossas/fossa-cli",
+    "accessible": false,
+    "status_code": null,
+    "final_url": "https://fossa.com/careers",
+    "error": "Connection error",
+    "is_recruiting_page": null,
+    "notes": [
+      "Unable to connect to server"
+    ]
+  },
+  {
+    "url": "https://oroinc.com/careers",
+    "company": "oroinc/crm",
+    "accessible": false,
+    "status_code": null,
+    "final_url": "https://oroinc.com/careers",
+    "error": "Connection error",
+    "is_recruiting_page": null,
+    "notes": [
+      "Unable to connect to server"
+    ]
+  },
+  {
+    "url": "https://site.vizor.io/jobs",
+    "company": "vizorvr/patches",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "https://site.vizor.io/jobs",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "https://www.jetbrains.com/careers/jobs/",
+    "company": "jetbrains/kotlin",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "https://www.jetbrains.com/careers/jobs/",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "https://www.irccloud.com/jobs",
+    "company": "irccloud/ios",
+    "accessible": false,
+    "status_code": null,
+    "final_url": "https://www.irccloud.com/jobs",
+    "error": "Connection error",
+    "is_recruiting_page": null,
+    "notes": [
+      "Unable to connect to server"
+    ]
+  },
+  {
+    "url": "https://ez.no/About-eZ/Careers",
+    "company": "ezsystems/ezplatform",
+    "accessible": false,
+    "status_code": null,
+    "final_url": "https://ez.no/About-eZ/Careers",
+    "error": "Connection error",
+    "is_recruiting_page": null,
+    "notes": [
+      "Unable to connect to server"
+    ]
+  },
+  {
+    "url": "https://platform.sh/company/careers",
+    "company": "platformsh/platformsh-cli",
+    "accessible": false,
+    "status_code": null,
+    "final_url": "https://platform.sh/company/careers",
+    "error": "Connection error",
+    "is_recruiting_page": null,
+    "notes": [
+      "Unable to connect to server"
+    ]
+  },
+  {
+    "url": "https://decent.ch/careers/",
+    "company": "DECENTfoundation/DECENT-Network",
+    "accessible": false,
+    "status_code": null,
+    "final_url": "https://decent.ch/careers/",
+    "error": "Connection error",
+    "is_recruiting_page": null,
+    "notes": [
+      "Unable to connect to server"
+    ]
+  },
+  {
+    "url": "https://sentry.io/careers/",
+    "company": "getsentry/sentry",
+    "accessible": true,
+    "status_code": 200,
+    "final_url": "https://sentry.io/careers/",
+    "error": null,
+    "is_recruiting_page": false,
+    "notes": [
+      "Page indicates no open positions"
+    ]
+  },
+  {
+    "url": "https://slic3r.org/blog/job-opportunities/",
+    "company": "slic3r/Slic3r",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "https://slic3r.org/blog/job-opportunities/",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "https://www.jetbrains.com/careers/jobs/",
+    "company": "jetbrains/intellij-community",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "https://www.jetbrains.com/careers/jobs/",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "https://jobs.lever.co/mattermost/",
+    "company": "mattermost/mattermost-server",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "https://jobs.lever.co/mattermost/",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "https://www.metabase.com/jobs/",
+    "company": "metabase/metabase",
+    "accessible": false,
+    "status_code": 403,
+    "final_url": "https://www.metabase.com/jobs/",
+    "error": null,
+    "is_recruiting_page": null,
+    "notes": [
+      "Unexpected status code: 403"
+    ]
+  },
+  {
+    "url": "https://www.arduino.cc/en/Careers/Home",
+    "company": "arduino/Arduino",
+    "accessible": false,
+    "status_code": null,
+    "final_url": "https://www.arduino.cc/en/Careers/Home",
+    "error": "Connection error",
+    "is_recruiting_page": null,
+    "notes": [
+      "Unable to connect to server"
+    ]
+  },
+  {
+    "url": "https://codecombat.com/about#careers",
+    "company": "codecombat/codecombat",
+    "accessible": false,
+    "status_code": null,
+    "final_url": "https://codecombat.com/about#careers",
+    "error": "Connection error",
+    "is_recruiting_page": null,
+    "notes": [
+      "Unable to connect to server"
+    ]
+  },
+  {
+    "url": "https://www.chaosgenius.io/about.html",
+    "company": "chaos-genius/chaos_genius",
+    "accessible": false,
+    "status_code": null,
+    "final_url": "https://www.chaosgenius.io/about.html",
+    "error": "Connection error",
+    "is_recruiting_page": null,
+    "notes": [
+      "Unable to connect to server"
+    ]
+  }
+]

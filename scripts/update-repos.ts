@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import fs from 'fs';
 import path from 'path';
 import Papa from 'papaparse';
@@ -12,7 +13,7 @@ interface RepoData {
     Language?: string;
 }
 
-async function fetchRepoData(repo: string): Promise<{ topics: string[]; language: string }> {
+async function fetchRepoData(repo: string): Promise<{ topics: string[]; language: string; description: string }> {
     try {
         const headers: HeadersInit = {
             'User-Agent': 'open-source-jobs-updater',
@@ -29,11 +30,11 @@ async function fetchRepoData(repo: string): Promise<{ topics: string[]; language
             if (response.status === 403) {
                 console.warn(`Rate limit exceeded or forbidden for ${repo}. Status: ${response.status}`);
                 // Return empty data to continue processing other repos or partial data
-                return { topics: [], language: '' };
+                return { topics: [], language: '', description: '' };
             }
             if (response.status === 404) {
                 console.warn(`Repo not found: ${repo}`);
-                return { topics: [], language: '' };
+                return { topics: [], language: '', description: '' };
             }
             throw new Error(`Failed to fetch ${repo}: ${response.statusText}`);
         }
@@ -41,11 +42,12 @@ async function fetchRepoData(repo: string): Promise<{ topics: string[]; language
         const data = await response.json();
         return {
             topics: data.topics || [],
-            language: data.language || ''
+            language: data.language || '',
+            description: data.description || ''
         };
     } catch (error) {
         console.error(`Error fetching ${repo}:`, error);
-        return { topics: [], language: '' };
+        return { topics: [], language: '', description: '' };
     }
 }
 
@@ -71,10 +73,11 @@ async function main() {
         // Add a small delay to be nice to the API
         await new Promise(resolve => setTimeout(resolve, 500));
 
-        const { topics, language } = await fetchRepoData(repo);
+        const { topics, language, description } = await fetchRepoData(repo);
 
         updatedData.push({
             ...row,
+            Description: description || row.Description, // Keep original if fetch fails or is empty
             Tags: topics.join(', '),
             Language: language
         });

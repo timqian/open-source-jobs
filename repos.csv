@@ -1,59 +1,58 @@
 Repository,Description,Job Page,Tags,Language
-elastic/elasticsearch,"Open Source, Distributed, RESTful Search Engine",https://www.elastic.co/about/careers/,,
-serverless/serverless,Serverless Framework,https://serverless.com/company/jobs/,,
-Unitech/pm2,Node.js Production Process Manager,https://pm2.io/jobs/,,
-grafana/grafana,The open platform for beautiful analytics and monitoring,https://grafana.com/about/hiring,,
-pingcap/tidb,A distributed HTAP database,https://pingcap.com/recruit-cn/join/,,
-mongodb/mongo,The MongoDB Database,https://www.mongodb.com/careers,,
-cockroachdb/cockroach,"The open source, cloud-native SQL database",https://www.cockroachlabs.com/careers/,,
-jenkinsci/jenkins,Open Source Automation Server,https://www.cloudbees.com/careers/,,
-odoo/odoo,Open Source Apps To Grow Your Business,https://www.odoo.com/jobs,,
-commaai/openpilot,Open source driving agent,https://comma.ai/jobs,,
-saltstack/salt,Make software for complex systems management at scale,https://www.saltstack.com/company/careers/,,
-dgraph-io/dgraph,"Fast, Distributed Graph DB",https://dgraph.io/careers,,
-gradle/gradle,"Adaptable, fast automation for all",https://gradle.com/careers/,,
-reactioncommerce/reaction,"Customizable, real-time reactive, JavaScript commerce platform",https://www.reactioncommerce.com/careers,,
-arangodb/arangodb,A native multi-model database,https://www.arangodb.com/jobs/,,
-hasura/graphql-engine,Instant Realtime GraphQL on Postgres,https://hasura.io/careers,,
-draios/sysdig,A universal system visibility tool with native support for containers,https://sysdig.com/jobs/,,
-nodesource/distributions,Secure. Reliable. Extensible. Node.js.,https://nodesource.com/careers,,
-paritytech/parity-ethereum,A Ethereum Client,https://www.parity.io/jobs,,
-RasaHQ/rasa_nlu,Natural language understanding,https://angel.co/rasahq/jobs,,
-mapbox/mapbox-gl-js,"JavaScript library for interactive, customizable vector maps on the web",https://www.mapbox.com/careers/,,
-PrestaShop/PrestaShop,A fully scalable open source ecommerce solution,http://www.jobs.net/jobs/prestashop/en-gb/,,
-SonarSource/SonarQube,The leading Open Source product for continuous code quality,http://sonarsource.com/company/jobs/,,
-zeek/zeek,Zeek (formerly Bro) is a powerful network analysis framework.,https://corelight.com/company/careers,,
-hazelcast/hazelcast,In-Memory Data Grid,https://hazelcast.com/company/careers/,,
-rundeck/rundeck,An open source automation service,https://www.rundeck.com/careers,,
-confluentinc/ksql,The Streaming SQL Engine for Apache Kafka,https://www.confluent.io/careers/,,
-bcoin-org/bcoin,JavaScript bitcoin library for Node.js and browsers,https://angel.co/company/purse/jobs/90956-open-source-protocol-developer-bcoin,,
-CartoDB/cartodb,Location Intelligence & Data Visualization tool,https://carto.com/careers/,,
-docker/docker-ce,Providing a standardized packaging format for diverse applications,https://www.docker.com/careers,,
-datawire/ambassador,Kubernetes-native API gateway for microservices,https://www.datawire.io/careers/,,
-crate/crate,Distributed SQL database,https://crate.io/jobs/,,
-npm/cli,A package manager for JavaScript,https://www.npmjs.com/jobs,,
-bitnami/minideb,A small image based on Debian,https://bitnami.com/careers,,
-sylabs/singularity,Linux container technology optimized for HPC workloads,https://sylabs.io/resources/jobs,,
-pimcore/pimcore,"CMS/CMF, MDM, PIM, DAM and E-Commerce",https://pimcore.com/en/about/careers,,
-YugaByte/yugabyte-db,SQL database,https://hire.withgoogle.com/public/jobs/yugabyte,,
-kaltura/nginx-vod-module,NGINX-based MP4 Repackager,https://corp.kaltura.com/company/careers/,,
-unsplash/unsplash-js,Building the internet's open library of freely usable visuals,https://unsplash.com/hiring,,
-SeldonIO/seldon-core,Machine Learning Deployment for Kubernetes,https://www.seldon.io/careers/,,
-fossas/fossa-cli,Dependency analysis for any codebase,https://fossa.com/careers,,
-oroinc/crm,Main OroCRM package with core functionality.,https://oroinc.com/careers,,
-amazeeio/lagoon,Build and Deploy System for OpenShift & Kubernetes,https://amazee.bamboohr.com/jobs/,,
-irccloud/ios,Chat on IRC from anywhere,https://www.irccloud.com/jobs,,
-ezsystems/ezplatform,Professional CMS,https://ez.no/About-eZ/Careers,,
-platformsh/platformsh-cli,Continuous Deployment Cloud Hosting,https://platform.sh/company/careers,,
-DECENTfoundation/DECENT-Network,Blockchain You Can Easily Build On,https://decent.ch/careers/,,
-vizorvr/patches,A visual programming editor for building WebVR and WebGL experiences,https://site.vizor.io/jobs,,
-jetbrains/kotlin,"Open Source, Static typed multiplatform programming language",https://www.jetbrains.com/careers/jobs/,,
-jetbrains/intellij-community,"Open Source, The Java IDE for Professional Developers",https://www.jetbrains.com/careers/jobs/,,
-arduino/Arduino,open-source electronics prototyping platform,https://www.arduino.cc/en/Careers/Home,,
-codecombat/codecombat,Game for learning how to code,https://codecombat.com/about#careers,,
-getsentry/sentry,"Cross-platform application monitoring, with a focus on error reporting",https://sentry.io/careers/,,
-slic3r/Slic3r,Open Source 3D printing toolbox,https://slic3r.org/blog/job-opportunities/,,
-chaos-genius/chaos_genius,ML powered analytics engine for outlier/anomaly detection and root cause analysis,https://www.chaosgenius.io/about.html,,
-metabase/metabase,"The simplest, fastest way to get business intelligence and analytics to everyone in your company",https://www.metabase.com/jobs/,,
-mattermost/mattermost-server,Mattermost is an open source platform for secure collaboration across the entire software development lifecycle.,https://jobs.lever.co/mattermost/,,
-mattermost/focalboard,"Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana.",https://jobs.lever.co/mattermost/,,
+elastic/elasticsearch,"Free and Open Source, Distributed, RESTful Search Engine",https://www.elastic.co/about/careers/,"elasticsearch, java, search-engine",Java
+serverless/serverless,"⚡ Serverless Framework – Effortlessly build apps that auto-scale, incur zero costs when idle, and require minimal maintenance using AWS Lambda and other managed cloud services.",https://serverless.com/company/jobs/,"aws, aws-dynamodb, aws-lambda, azure-functions, google-cloud-functions, microservice, serverless, serverless-architectures, serverless-framework",JavaScript
+Unitech/pm2,Node.js Production Process Manager with a built-in Load Balancer.,https://pm2.io/jobs/,"command-line, command-line-tool, deploy, load-balancer, monitoring, node, nodejs, pm2, process-manager, production",JavaScript
+grafana/grafana,"The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",https://grafana.com/about/hiring,"alerting, analytics, business-intelligence, dashboard, data-visualization, elasticsearch, go, grafana, hacktoberfest, influxdb, metrics, monitoring, mysql, postgres, prometheus",TypeScript
+pingcap/tidb,"TiDB - the open-source, cloud-native, distributed SQL database designed for modern applications.",https://pingcap.com/recruit-cn/join/,"cloud-native, database, distributed-database, distributed-transactions, go, hacktoberfest, htap, mysql, mysql-compatibility, scale, serverless, sql, tidb",Go
+mongodb/mongo,The MongoDB Database,https://www.mongodb.com/careers,"c-plus-plus, database, mongodb, nosql",C++
+cockroachdb/cockroach,"CockroachDB — the cloud native, distributed SQL database designed for high availability, effortless scale, and control over data placement.",https://www.cockroachlabs.com/careers/,"cockroachdb, database, distributed-database, go, hacktoberfest, sql",Go
+jenkinsci/jenkins,Jenkins automation server,https://www.cloudbees.com/careers/,"cicd, continuous-delivery, continuous-deployment, continuous-integration, devops, groovy, hacktoberfest, java, jenkins, pipelines-as-code",Java
+odoo/odoo,Odoo. Open Source Apps To Grow Your Business.,https://www.odoo.com/jobs,"apps, business, erp, management, odoo, odoo-apps, python",Python
+commaai/openpilot,"openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",https://comma.ai/jobs,"advanced-driver-assistance-systems, driver-assistance-systems, robotics",Python
+saltstack/salt,Software to automate the management and configuration of infrastructure and applications at scale.,https://www.saltstack.com/company/careers/,"cloud, cloud-management, cloud-providers, cloud-provisioning, configuration-management, edge, event-management, event-stream, infrastructure, infrastructure-as-a-code, infrastructure-as-code, infrastructure-automation, infrastructure-management, iot, python, remote-execution, zeromq",Python
+dgraph-io/dgraph,high-performance graph database for real-time use cases,https://dgraph.io/careers,"database, distributed, go, knowledge-graph",Go
+gradle/gradle,"Adaptable, fast automation for all",https://gradle.com/careers/,"build-tool, good-first-issue, gradle, gradle-bt, groovy, java, kotlin",Groovy
+arangodb/arangodb,"🥑 ArangoDB is a native multi-model database with flexible data models for documents, graphs, and key-values. Build high performance applications using a convenient SQL-like query language or JavaScript extensions.",https://www.arangodb.com/jobs/,"arangodb, database, distributed-database, document-database, graph-database, graphdb, key-value, multi-model, nosql",C++
+hasura/graphql-engine,"Blazing fast, instant realtime GraphQL APIs on all your data with fine grained access control, also trigger webhooks on database events.",https://hasura.io/careers,"access-control, api, automatic-api, bigquery, graphql, graphql-api, graphql-server, haskell, hasura, mongodb, postgres, rest-api, sql-server, subgraph, supergraph",TypeScript
+draios/sysdig,Linux system exploration and troubleshooting tool with first class support for containers,https://sysdig.com/jobs/,,C++
+nodesource/distributions,NodeSource Node.js Binary Distributions,https://nodesource.com/careers,"javascript, linux, node, nodejs, runtime",Shell
+paritytech/parity-ethereum,"The fast, light, and robust client for Ethereum-like networks.",https://www.parity.io/jobs,"blockchain, client, ethereum, node, rust",Rust
+RasaHQ/rasa_nlu,"💬   Open source machine learning framework to automate text- and voice-based conversations: NLU, dialogue management, connect to Slack, Facebook, and more - Create chatbots and voice assistants",https://angel.co/rasahq/jobs,"bot, bot-framework, botkit, bots, chatbot, chatbots, chatbots-framework, conversation-driven-development, conversational-agents, conversational-ai, conversational-bots, machine-learning, machine-learning-library, mitie, natural-language-processing, nlp, nlu, rasa, spacy, wit",Python
+mapbox/mapbox-gl-js,"Interactive, thoroughly customizable maps in the browser, powered by vector tiles and WebGL",https://www.mapbox.com/careers/,"3d, javascript, maps, priority, webgl",TypeScript
+PrestaShop/PrestaShop,PrestaShop is the universal open-source software platform to build your e-commerce solution.,http://www.jobs.net/jobs/prestashop/en-gb/,"cms, ecommerce, ecommerce-framework, ecommerce-platform, hacktoberfest, php, php-framework, prestashop",PHP
+SonarSource/SonarQube,Continuous Inspection,http://sonarsource.com/company/jobs/,"code-quality, sonarqube, static-analysis",Java
+zeek/zeek,Zeek is a powerful network analysis framework that is much different from the typical IDS you may know.,https://corelight.com/company/careers,"bro, dfir, ndr, network-monitoring, nsm, pcap, security, zeek",C++
+hazelcast/hazelcast,"Hazelcast is a unified real-time data platform combining stream processing with a fast data store, allowing customers to act instantly on data-in-motion for real-time insights.",https://hazelcast.com/company/careers/,"big-data, caching, data-in-motion, data-insights, distributed, distributed-computing, distributed-systems, hacktoberfest, hazelcast, in-memory, java, low-latency, real-time, scalability, stream-processing",Java
+rundeck/rundeck,"Enable Self-Service Operations: Give specific users access to your existing tools, services, and scripts",https://www.rundeck.com/careers,"ansible, audit, automation, category-distributed, deployment, devops, devops-team, devops-tools, hacktoberfest, java, operations, ops, orchestration, runbook, rundeck, scheduler, sre",Groovy
+confluentinc/ksql,The database purpose-built for stream processing applications.,https://www.confluent.io/careers/,"event-streaming-database, interactive, kafka, kafka-connect, ksqldb, ksqldb-documentation, ksqldb-tutorials, materialized-views, real-time, sql, stream-processing, streaming-queries",Java
+bcoin-org/bcoin,Javascript bitcoin library for node.js and browsers,https://angel.co/company/purse/jobs/90956-open-source-protocol-developer-bcoin,"bitcoin, cryptocurrency, mining, wallet",JavaScript
+CartoDB/cartodb,Location Intelligence & Data Visualization tool,https://carto.com/careers/,"carto, geolocation, geospatial, location-services, postgis",JavaScript
+docker/docker-ce,:warning: This repository is deprecated and will be archived (Docker CE itself is NOT deprecated) see the https://github.com/docker/docker-ce/blob/master/README.md :warning:,https://www.docker.com/careers,"docker, git, golang, moby",Go
+datawire/ambassador,open source Kubernetes-native API gateway for microservices built on the Envoy Proxy,https://www.datawire.io/careers/,"ambassador, api-gateway, api-management, cloud-native, docker, envoy, envoy-proxy, gateway-api, kubernetes, kubernetes-annotations, kubernetes-ingress, microservice",Python
+crate/crate,"CrateDB is a distributed and scalable SQL database for storing and analyzing massive amounts of data in near real-time, even with complex queries. It is PostgreSQL-compatible, and based on Lucene.",https://crate.io/jobs/,"analytics, big-data, cratedb, database, dbms, distributed, distributed-database, distributed-sql-database, elasticsearch, industrial-iot, iot, iot-analytics, iot-database, lucene, olap, postgresql, sql, time-series, tsdb, vector-database",Java
+npm/cli,the package manager for JavaScript,https://www.npmjs.com/jobs,"javascript, nodejs, npm, npm-cli, package-manager, tools",JavaScript
+bitnami/minideb,A small image based on Debian designed for use in containers,https://bitnami.com/careers,"base-image, containers, debian, docker, docker-image, minideb",Shell
+sylabs/singularity,"SingularityCE is the Community Edition of Singularity, an open source container platform designed to be simple, fast, and secure.",https://sylabs.io/resources/jobs,"containers, hpc, linux",Go
+pimcore/pimcore,"Core Framework for the Open Core Data & Experience Management Platform (PIM, MDM, CDP, DAM, DXP/CMS & Digital Commerce)",https://pimcore.com/en/about/careers,"cdp, cms, cms-framework, customer-data-platform, dam, data-management, digital-platform, ecommerce, ecommerce-platform, experience-manager, hacktoberfest, master-data-management, mdm, online-shop, pim, pimcore, product-information-management, product-management, shop, wcms",PHP
+YugaByte/yugabyte-db,YugabyteDB - the cloud native distributed SQL database for mission-critical applications.,https://hire.withgoogle.com/public/jobs/yugabyte,"cloud-native, cpp, database, distributed-database, distributed-sql, distributed-sql-database, high-performance, kubernetes, multi-cloud, multi-region, scale-out, sql",C
+kaltura/nginx-vod-module,NGINX-based MP4 Repackager,https://corp.kaltura.com/company/careers/,"dash, drm, hds, hls, livestream, mp4, mss, nginx, stream, streaming, video, video-streaming, vod",C
+unsplash/unsplash-js,🤖 Official JavaScript wrapper for the Unsplash API,https://unsplash.com/hiring,"free, images, photography, photos, pictures, unsplash",TypeScript
+SeldonIO/seldon-core,"An MLOps framework to package, deploy, monitor and manage thousands of production machine learning models",https://www.seldon.io/careers/,"aiops, deployment, kubernetes, machine-learning, machine-learning-operations, mlops, production-machine-learning, serving",Go
+fossas/fossa-cli,"Fast, portable and reliable dependency analysis for any codebase.  Supports license & vulnerability scanning for large monoliths.  Language-agnostic; integrates with 20+ build systems.",https://fossa.com/careers,"open-source-licensing, open-source-vulnerabilities",Haskell
+oroinc/crm,Main OroCRM package with core functionality.,https://oroinc.com/careers,"crm, crm-platform, crm-system, orocrm, oroplatform, php, symfony",PHP
+amazeeio/lagoon,"Lagoon, the developer-focused application delivery platform",https://amazee.bamboohr.com/jobs/,hacktoberfest,TypeScript
+irccloud/ios,IRCCloud iOS App,https://www.irccloud.com/jobs,"chat, ios, ipad, iphone, irc, irccloud, mobile-app",Objective-C
+ezsystems/ezplatform,Meta repository that pulls in all dependencies for clean distribution of Ibexa Platform.,https://ez.no/About-eZ/Careers,"cms, composer-project, dxp, ez-platform, ez-platform-project-variant, php, symfony, symfony-application",Shell
+platformsh/platformsh-cli,This is the legacy version of Platform.sh's command-line interface. The new version is at: https://github.com/platformsh/cli,https://platform.sh/company/careers,"cli, cloud, command-line-tool, paas, php, platform, symfony-console",PHP
+DECENTfoundation/DECENT-Network,Blockchain You Can Easily Build On,https://decent.ch/careers/,,C++
+vizorvr/patches,Patches is a visual programming editor for building WebVR and WebGL experiences.,https://site.vizor.io/jobs,"360, 360-photo, 360-video, 360video, camera, diffuse, graph, javascript, loop, matrices, meshes, nodejs, player, texture, three-js, threejs, virtual-reality, vr, webgl, webvr",JavaScript
+jetbrains/kotlin,"The Kotlin Programming Language. ",https://www.jetbrains.com/careers/jobs/,"compiler, gradle-plugin, intellij-plugin, kotlin, kotlin-library, maven-plugin, programming-language, wasm, webassembly",Kotlin
+jetbrains/intellij-community,IntelliJ IDEA & IntelliJ Platform,https://www.jetbrains.com/careers/jobs/,"code-editor, ide, intellij, intellij-community, intellij-platform",Java
+arduino/Arduino,Arduino IDE 1.x,https://www.arduino.cc/en/Careers/Home,"arduino, ide",Java
+codecombat/codecombat,Game for learning how to code.,https://codecombat.com/about#careers,,JavaScript
+getsentry/sentry,Developer-first error tracking and performance monitoring,https://sentry.io/careers/,"apm, crash-reporting, crash-reports, csp-report, devops, django, error-logging, error-monitoring, fair-source, hacktoberfest, monitor, monitoring, python, sentry, tag-production",Python
+slic3r/Slic3r,Open Source toolpath generator for 3D printers,https://slic3r.org/blog/job-opportunities/,"3d-printer, 3d-printing, cam, digital-fabrication, stl",C++
+chaos-genius/chaos_genius,ML powered analytics engine for outlier detection and root cause analysis.,https://www.chaosgenius.io/about.html,"ai, alert, alert-messages, analytics, anomaly-detection, business-intelligence, data-visualization, dataquality, deep-learning, hacktoberfest, machine-learning, ml, monitoring, monitoring-tool, observability, outlier-detection, python, rootcauseanalysis, seasonality, time-series",Python
+metabase/metabase,The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:,https://www.metabase.com/jobs/,"analytics, bi, business-intelligence, businessintelligence, clojure, dashboard, data, data-analysis, data-visualization, database, metabase, mysql, postgres, postgresql, reporting, slack, sql-editor, visualization",Clojure
+mattermost/mattermost-server,Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..,https://jobs.lever.co/mattermost/,"collaboration, golang, hacktoberfest, mattermost, monorepo, react, react-native",TypeScript
+mattermost/focalboard,"Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana.",https://jobs.lever.co/mattermost/,"asana, collaboration, goal-tracking, golang, hacktoberfest, kanban-board, notion, project, project-management, trello",TypeScript

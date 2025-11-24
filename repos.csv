@@ -1,4 +1,5 @@
 Repository,Description,Job Page,Tags,Language
+vitejs/vite,"Next Generation Frontend Tooling",https://voidzero.dev/team,"frontend, javascript, typescript, vite",TypeScript
 elastic/elasticsearch,"Free and Open Source, Distributed, RESTful Search Engine",https://www.elastic.co/about/careers/,"elasticsearch, java, search-engine",Java
 grafana/grafana,"The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",https://grafana.com/about/hiring,"alerting, analytics, business-intelligence, dashboard, data-visualization, elasticsearch, go, grafana, hacktoberfest, influxdb, metrics, monitoring, mysql, postgres, prometheus",TypeScript
 pingcap/tidb,"TiDB - the open-source, cloud-native, distributed SQL database designed for modern applications.",https://pingcap.com/recruit-cn/join/,"cloud-native, database, distributed-database, distributed-transactions, go, hacktoberfest, htap, mysql, mysql-compatibility, scale, serverless, sql, tidb",Go
@@ -174,7 +175,6 @@ dragonflydb/dragonfly,"Modern in-memory datastore. Fully compatible with Redis a
 apache/rocketmq,"Cloud-native messaging and streaming platform.",https://www.aliyun.com/about/careers,"messaging, streaming, cloud-native, distributed-systems, mq",Java
 nats-io/nats-streaming-server,"NATS streaming system. Deprecated in favor of JetStream.",https://synadia.com/careers,"streaming, messaging, nats, distributed-systems, golang",Go
 vitessio/vitess,"Database clustering system for horizontal scaling of MySQL.",https://vitess.io/community,"database, mysql, sharding, horizontal-scaling, kubernetes",Go
-vitess-mixin/vitess,"Vitess observability mixin for Grafana dashboards.",https://vitess.io/community,"vitess, observability, grafana, monitoring, mysql",Jsonnet
 cncf/landscape,"Cloud Native landscape including all CNCF projects.",https://www.cncf.io/about/join/careers/,"cloud-native, cncf, landscape, projects, ecosystem",JavaScript
 apache/incubator-devlake,"Dev Data Platform for engineering teams to analyze and improve DevOps.",https://www.merico.dev/careers,"devops, analytics, metrics, data-platform, engineering",Go
 alluxio/alluxio,"Data orchestration for analytics and machine learning in the cloud.",https://www.alluxio.io/careers/,"data-orchestration, storage, big-data, cloud, distributed-systems",Java
@@ -182,7 +182,6 @@ delta-io/delta,"Storage framework that enables building Lakehouse architecture."
 apache/iceberg,"High-performance format for huge analytic tables.",https://www.tabular.io/careers/,"data-lake, table-format, analytics, big-data, apache",Java
 apache/hudi,"Streaming data lake platform for incremental data pipelines.",https://www.onehouse.ai/careers,"data-lake, streaming, incremental, big-data, spark",Java
 ClickHouse/clickhouse-java,"ClickHouse JDBC driver and Java client.",https://clickhouse.com/company/careers,"clickhouse, java, jdbc, driver, database",Java
-trino/trino,"Fast distributed SQL query engine for big data analytics. Formerly PrestoSQL.",https://www.starburst.io/careers/,"sql, query-engine, big-data, distributed-systems, trino",Java
 duckdb/duckdb,"In-process SQL OLAP database management system.",https://duckdb.org/foundation/,"database, olap, sql, in-process, analytics",C++
 apache/arrow,"Cross-language development platform for in-memory analytics.",https://voltrondata.com/careers,"analytics, in-memory, columnar, arrow, cross-language",C++
 apache/parquet,"Columnar storage format for the Hadoop ecosystem.",https://www.cloudera.com/about/careers.html,"storage, columnar, parquet, hadoop, big-data",Java

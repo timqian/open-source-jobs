@@ -88,3 +88,123 @@ ToolJet/ToolJet,"Open-source low-code platform to build and deploy internal tool
 Budibase/budibase,"Open-source low-code platform for building internal apps in minutes.",https://budibase.com/careers,"low-code, internal-tools, app-builder, automation",TypeScript
 apache/superset,"Modern data exploration and visualization platform. Open-source BI tool.",https://preset.io/careers,"business-intelligence, data-visualization, analytics, bi",Python
 Flagsmith/flagsmith,"Open-source feature flag and remote config service. Alternative to LaunchDarkly.",https://flagsmith.com/careers,"feature-flags, remote-config, deployment, continuous-delivery",Python
+ClickHouse/ClickHouse,"Fast open-source column-oriented database management system for real-time analytics.",https://clickhouse.com/company/careers,"database, analytics, olap, column-oriented, real-time",C++
+timescale/timescaledb,"Open-source time-series SQL database optimized for fast ingest and complex queries.",https://www.timescale.com/careers,"time-series, database, postgresql, sql, analytics",C
+questdb/questdb,"High-performance time-series database for real-time analytics and monitoring.",https://questdb.io/careers,"time-series, database, sql, analytics, high-performance",Java
+influxdata/influxdb,"Scalable time-series database for metrics, events, and real-time analytics.",https://www.influxdata.com/careers/,"time-series, database, monitoring, metrics, analytics",Rust
+apache/kafka,"Distributed event streaming platform for high-performance data pipelines.",https://www.confluent.io/careers/,"streaming, messaging, kafka, distributed-systems, event-driven",Java
+confluentinc/ksql,"Event streaming database purpose-built for stream processing applications.",https://www.confluent.io/careers/,"kafka, streaming, sql, event-streaming, real-time",Java
+apache/flink,"Stateful computations over data streams for distributed stream and batch processing.",https://www.ververica.com/careers,"stream-processing, batch-processing, big-data, distributed-systems",Java
+apache/spark,"Unified analytics engine for large-scale data processing.",https://www.databricks.com/company/careers,"big-data, spark, analytics, distributed-computing, data-processing",Scala
+databricks/koalas,"Pandas API on Apache Spark for distributed data processing.",https://www.databricks.com/company/careers,"pandas, spark, data-science, python, distributed-computing",Python
+apache/airflow,"Platform to programmatically author, schedule and monitor workflows.",https://www.astronomer.io/careers/,"workflow, orchestration, data-pipeline, etl, scheduling",Python
+astronomer/astronomer,"Enterprise Apache Airflow platform for data orchestration.",https://www.astronomer.io/careers/,"airflow, orchestration, data-engineering, kubernetes, enterprise",Go
+apache/beam,"Unified programming model for batch and streaming data processing.",https://cloud.google.com/careers,"beam, data-processing, streaming, batch, distributed-systems",Java
+dbt-labs/dbt-cloud,"Cloud-based development environment for dbt data transformations.",https://www.getdbt.com/careers,"dbt, data-transformation, analytics-engineering, cloud, sql",Python
+fivetran/fivetran_connector_sdk,"Automated data movement platform for analytics and data warehouses.",https://www.fivetran.com/careers,"etl, data-integration, data-pipeline, analytics, automation",Java
+airbyte-io/airbyte,"Open-source data integration platform syncing data from APIs and databases.",https://airbyte.com/company/careers,"data-integration, etl, elt, connectors, data-engineering",Python
+meltano/meltano,"Open-source platform for the whole data lifecycle from extraction to orchestration.",https://meltano.com/jobs,"data-integration, etl, elt, data-ops, singer",Python
+singer-io/getting-started,"Open-source standard for writing scripts that move data.",https://www.stitchdata.com/careers/,"etl, data-integration, data-pipeline, open-standard",Python
+redpanda-data/redpanda,"Streaming data platform for mission critical workloads. Kafka API compatible.",https://www.redpanda.com/careers,"streaming, kafka-compatible, real-time, messaging, c-plus-plus",C++
+vectorized-io/redpanda,"High-performance streaming platform. Kafka API compatible without Zookeeper.",https://www.redpanda.com/careers,"streaming, kafka, real-time, distributed-systems, performance",C++
+apache/pulsar,"Cloud-native distributed messaging and streaming platform.",https://streamnative.io/careers,"messaging, streaming, cloud-native, pub-sub, distributed-systems",Java
+streamnative/pulsar,"Cloud-native distributed pub-sub messaging system.",https://streamnative.io/careers,"pulsar, messaging, streaming, cloud-native, distributed-systems",Java
+nats-io/nats-server,"High-performance cloud-native messaging system.",https://synadia.com/careers,"messaging, cloud-native, microservices, distributed-systems, golang",Go
+nats-io/nats.go,"Go client for NATS messaging system.",https://synadia.com/careers,"nats, messaging, go, client-library, cloud-native",Go
+rabbitmq/rabbitmq-server,"Open-source message broker supporting multiple messaging protocols.",https://www.broadcom.com/company/careers,"messaging, message-broker, amqp, erlang, distributed-systems",Erlang
+canonical/lxd,"Next generation system container and virtual machine manager.",https://canonical.com/careers,"containers, virtualization, lxc, cloud, ubuntu",Go
+canonical/multipass,"Lightweight VM manager for Linux, Windows and macOS.",https://canonical.com/careers,"virtualization, vm, cloud, ubuntu, cross-platform",Go
+ubuntu/ubuntu-make,"Easy setup of common tools for developers on Ubuntu.",https://canonical.com/careers,"ubuntu, developer-tools, setup, linux, automation",Python
+containers/podman,"Tool for managing OCI containers and pods.",https://www.redhat.com/en/jobs,"containers, oci, pods, docker-alternative, kubernetes",Go
+containers/buildah,"Tool that facilitates building OCI container images.",https://www.redhat.com/en/jobs,"containers, build-tool, oci, docker-alternative, images",Go
+containers/skopeo,"Work with remote images registries - retrieving information and copying images.",https://www.redhat.com/en/jobs,"containers, registries, images, oci, docker",Go
+redhat-developer/vscode-java,"Java Language Support for Visual Studio Code.",https://www.redhat.com/en/jobs,"java, vscode, language-server, ide, developer-tools",TypeScript
+ansible/ansible,"Radically simple IT automation platform.",https://www.redhat.com/en/jobs,"automation, configuration-management, orchestration, devops, python",Python
+ansible/awx,"Web-based user interface and task engine for Ansible.",https://www.redhat.com/en/jobs,"ansible, automation, web-ui, task-engine, devops",Python
+rancher/rancher,"Complete container management platform for Kubernetes.",https://www.suse.com/company/careers/,"kubernetes, containers, management, multi-cluster, devops",Go
+rancher/k3s,"Lightweight Kubernetes distribution for IoT and edge computing.",https://www.suse.com/company/careers/,"kubernetes, lightweight, iot, edge-computing, containers",Go
+k3s-io/k3s,"Lightweight certified Kubernetes distribution built for IoT and Edge.",https://www.suse.com/company/careers/,"kubernetes, k3s, edge, iot, lightweight",Go
+longhorn/longhorn,"Cloud-native distributed block storage for Kubernetes.",https://www.suse.com/company/careers/,"storage, kubernetes, cloud-native, distributed-storage, block-storage",Go
+linkerd/linkerd2,"Ultralight service mesh for Kubernetes and beyond.",https://buoyant.io/careers,"service-mesh, kubernetes, linkerd, microservices, cloud-native",Go
+linkerd/linkerd2-proxy,"Lightweight proxy written in Rust for the Linkerd service mesh.",https://buoyant.io/careers,"proxy, service-mesh, rust, linkerd, performance",Rust
+istio/istio,"Connect, secure, control, and observe services.",https://www.solo.io/company/careers,"service-mesh, kubernetes, microservices, security, observability",Go
+envoyproxy/envoy,"Cloud-native high-performance edge/middle/service proxy.",https://www.solo.io/company/careers,"proxy, envoy, cloud-native, load-balancer, service-mesh",C++
+solo-io/gloo,"Next-generation API gateway and Kubernetes ingress controller.",https://www.solo.io/company/careers,"api-gateway, kubernetes, ingress, envoy, microservices",Go
+solo-io/solo-kit,"Toolkit for building Kubernetes controllers with Envoy configuration.",https://www.solo.io/company/careers,"kubernetes, controllers, envoy, code-generation, api",Go
+etcd-io/etcd,"Distributed reliable key-value store for distributed systems.",https://www.redhat.com/en/jobs,"distributed-systems, key-value-store, raft, consensus, kubernetes",Go
+coreos/etcd,"Distributed reliable key-value store for the most critical data.",https://www.redhat.com/en/jobs,"etcd, distributed-systems, key-value, consensus, cloud-native",Go
+kubernetes/kubernetes,"Production-Grade Container Orchestration.",https://www.cncf.io/about/join/careers/,"kubernetes, containers, orchestration, cloud-native, distributed-systems",Go
+kubernetes/minikube,"Run Kubernetes locally for development and testing.",https://www.cncf.io/about/join/careers/,"kubernetes, development, local, testing, minikube",Go
+kubernetes/kubectl,"Command line tool for communicating with a Kubernetes cluster.",https://www.cncf.io/about/join/careers/,"kubernetes, cli, kubectl, command-line, devops",Go
+kubernetes/dashboard,"General-purpose web UI for Kubernetes clusters.",https://www.cncf.io/about/join/careers/,"kubernetes, web-ui, dashboard, monitoring, cluster-management",TypeScript
+helm/helm,"The Kubernetes Package Manager.",https://www.cncf.io/about/join/careers/,"kubernetes, package-manager, helm, charts, deployment",Go
+prometheus/prometheus,"Open-source systems monitoring and alerting toolkit.",https://www.cncf.io/about/join/careers/,"monitoring, prometheus, alerting, metrics, time-series",Go
+prometheus/alertmanager,"Handles alerts sent by Prometheus server.",https://www.cncf.io/about/join/careers/,"alerting, prometheus, notifications, monitoring, deduplication",Go
+prometheus/node_exporter,"Exporter for machine metrics.",https://www.cncf.io/about/join/careers/,"prometheus, exporter, metrics, monitoring, system-metrics",Go
+thanos-io/thanos,"Highly available Prometheus setup with long term storage.",https://www.cncf.io/about/join/careers/,"prometheus, monitoring, high-availability, storage, metrics",Go
+cortexproject/cortex,"Horizontally scalable, highly available Prometheus.",https://www.cncf.io/about/join/careers/,"prometheus, monitoring, scalable, multi-tenant, metrics",Go
+grafana/loki,"Log aggregation system designed to store and query logs from applications.",https://grafana.com/about/hiring,"logging, log-aggregation, grafana, observability, prometheus",Go
+grafana/tempo,"High-scale distributed tracing backend.",https://grafana.com/about/hiring,"tracing, distributed-tracing, observability, grafana, tempo",Go
+grafana/mimir,"Horizontally scalable, highly available Prometheus for long-term storage.",https://grafana.com/about/hiring,"prometheus, metrics, scalable, grafana, monitoring",Go
+grafana/k6,"Modern load testing tool using Go and JavaScript.",https://grafana.com/about/hiring,"load-testing, performance, testing, k6, javascript",Go
+jaegertracing/jaeger,"Distributed tracing platform for monitoring microservices.",https://www.cncf.io/about/join/careers/,"tracing, distributed-tracing, monitoring, microservices, observability",Go
+open-telemetry/opentelemetry-collector,"Vendor-agnostic implementation on how to receive, process and export telemetry data.",https://www.cncf.io/about/join/careers/,"observability, telemetry, tracing, metrics, logging",Go
+open-telemetry/opentelemetry-go,"OpenTelemetry Go API and SDK.",https://www.cncf.io/about/join/careers/,"opentelemetry, observability, go, tracing, metrics",Go
+open-telemetry/opentelemetry-python,"OpenTelemetry Python API and SDK.",https://www.cncf.io/about/join/careers/,"opentelemetry, observability, python, tracing, metrics",Python
+signoz/signoz,"Open-source APM and observability platform. Alternative to DataDog and New Relic.",https://signoz.io/careers/,"apm, observability, monitoring, tracing, open-source",TypeScript
+uptrace/uptrace,"Open-source APM with distributed tracing and metrics.",https://uptrace.dev/careers/,"apm, tracing, metrics, observability, golang",Go
+victoriametrics/VictoriaMetrics,"Fast, cost-effective monitoring solution and time series database.",https://victoriametrics.com/careers/,"metrics, monitoring, time-series, prometheus, high-performance",Go
+m3db/m3,"Distributed time series database and query engine for Prometheus.",https://www.uber.com/us/en/careers/,"time-series, database, prometheus, distributed-systems, metrics",Go
+apache/druid,"High-performance real-time analytics database for event-driven data.",https://imply.io/careers/,"analytics, real-time, olap, database, big-data",Java
+apache/pinot,"Real-time distributed OLAP datastore for low-latency high-throughput analytics.",https://startree.ai/careers,"olap, real-time, analytics, distributed-database, big-data",Java
+clickhouse/clickhouse-go,"Golang driver for ClickHouse database.",https://clickhouse.com/company/careers,"clickhouse, golang, driver, database, client",Go
+trinodb/trino,"Fast distributed SQL query engine for big data analytics.",https://www.starburst.io/careers/,"sql, query-engine, big-data, distributed-systems, analytics",Java
+prestodb/presto,"Distributed SQL query engine for big data.",https://prestodb.io/community.html,"sql, query-engine, big-data, distributed-systems, analytics",Java
+StarRocks/starrocks,"Linux Foundation project. Next-gen sub-second MPP OLAP database.",https://www.mirrorship.cn/jobs,"olap, database, analytics, mpp, real-time",C++
+apache/doris,"Easy-to-use real-time analytical database based on MPP architecture.",https://selectdb.com/careers,"olap, database, analytics, mpp, real-time",C++
+apache/hive,"Data warehouse software for reading, writing, and managing large datasets.",https://www.cloudera.com/about/careers.html,"data-warehouse, sql, hadoop, big-data, hive",Java
+apache/hadoop,"Framework for distributed processing of large data sets.",https://www.cloudera.com/about/careers.html,"hadoop, big-data, distributed-systems, mapreduce, hdfs",Java
+apache/hbase,"Distributed, scalable big data store modeled after Google Bigtable.",https://www.cloudera.com/about/careers.html,"database, big-data, nosql, hadoop, distributed-systems",Java
+apache/cassandra,"Highly-scalable partitioned row store for managing large amounts of data.",https://www.datastax.com/company/careers,"database, nosql, distributed-database, cassandra, scalable",Java
+scylladb/scylladb,"NoSQL data store using the seastar framework. Cassandra compatible.",https://www.scylladb.com/company/careers/,"database, nosql, cassandra-compatible, high-performance, distributed-database",C++
+datastax/cassandra,"DataStax distribution of Apache Cassandra.",https://www.datastax.com/company/careers,"cassandra, database, nosql, distributed-database, datastax",Java
+redis/redis,"In-memory data structure store used as database, cache and message broker.",https://redis.com/company/careers/,"database, cache, in-memory, key-value, redis",C
+valkey-io/valkey,"High-performance data structure server forked from Redis.",https://www.linuxfoundation.org/about/careers,"database, cache, in-memory, key-value, redis-fork",C
+dragonflydb/dragonfly,"Modern in-memory datastore. Fully compatible with Redis and Memcached APIs.",https://www.dragonflydb.io/careers,"database, cache, in-memory, redis-compatible, high-performance",C++
+apache/rocketmq,"Cloud-native messaging and streaming platform.",https://www.aliyun.com/about/careers,"messaging, streaming, cloud-native, distributed-systems, mq",Java
+nats-io/nats-streaming-server,"NATS streaming system. Deprecated in favor of JetStream.",https://synadia.com/careers,"streaming, messaging, nats, distributed-systems, golang",Go
+vitessio/vitess,"Database clustering system for horizontal scaling of MySQL.",https://vitess.io/community,"database, mysql, sharding, horizontal-scaling, kubernetes",Go
+vitess-mixin/vitess,"Vitess observability mixin for Grafana dashboards.",https://vitess.io/community,"vitess, observability, grafana, monitoring, mysql",Jsonnet
+cncf/landscape,"Cloud Native landscape including all CNCF projects.",https://www.cncf.io/about/join/careers/,"cloud-native, cncf, landscape, projects, ecosystem",JavaScript
+apache/incubator-devlake,"Dev Data Platform for engineering teams to analyze and improve DevOps.",https://www.merico.dev/careers,"devops, analytics, metrics, data-platform, engineering",Go
+alluxio/alluxio,"Data orchestration for analytics and machine learning in the cloud.",https://www.alluxio.io/careers/,"data-orchestration, storage, big-data, cloud, distributed-systems",Java
+delta-io/delta,"Storage framework that enables building Lakehouse architecture.",https://www.databricks.com/company/careers,"data-lake, lakehouse, storage, big-data, acid",Scala
+apache/iceberg,"High-performance format for huge analytic tables.",https://www.tabular.io/careers/,"data-lake, table-format, analytics, big-data, apache",Java
+apache/hudi,"Streaming data lake platform for incremental data pipelines.",https://www.onehouse.ai/careers,"data-lake, streaming, incremental, big-data, spark",Java
+ClickHouse/clickhouse-java,"ClickHouse JDBC driver and Java client.",https://clickhouse.com/company/careers,"clickhouse, java, jdbc, driver, database",Java
+trino/trino,"Fast distributed SQL query engine for big data analytics. Formerly PrestoSQL.",https://www.starburst.io/careers/,"sql, query-engine, big-data, distributed-systems, trino",Java
+duckdb/duckdb,"In-process SQL OLAP database management system.",https://duckdb.org/foundation/,"database, olap, sql, in-process, analytics",C++
+apache/arrow,"Cross-language development platform for in-memory analytics.",https://voltrondata.com/careers,"analytics, in-memory, columnar, arrow, cross-language",C++
+apache/parquet,"Columnar storage format for the Hadoop ecosystem.",https://www.cloudera.com/about/careers.html,"storage, columnar, parquet, hadoop, big-data",Java
+ceph/ceph,"Distributed object, block, and file storage platform.",https://www.redhat.com/en/jobs,"storage, distributed-storage, object-storage, block-storage, file-storage",C++
+rook/rook,"Storage orchestration for Kubernetes.",https://www.cncf.io/about/join/careers/,"storage, kubernetes, orchestration, cloud-native, ceph",Go
+minio/minio,"High-performance object storage for AI and cloud-native applications.",https://min.io/careers,"object-storage, s3-compatible, cloud-native, storage, ai",Go
+seaweedfs/seaweedfs,"Fast distributed storage system for billions of files.",https://www.seaweedfs.com/,"storage, distributed-storage, object-storage, file-system, scalable",Go
+juicedata/juicefs,"Distributed POSIX file system built on top of Redis and S3.",https://juicedata.io/en/careers/,"file-system, distributed-storage, s3, redis, cloud-native",Go
+snyk/snyk,"Developer security platform for finding and fixing vulnerabilities.",https://snyk.io/careers/,"security, vulnerabilities, developer-security, sast, sca",TypeScript
+snyk/cli,"Snyk CLI for finding and fixing known vulnerabilities in dependencies.",https://snyk.io/careers/,"security, cli, vulnerabilities, sca, developer-tools",TypeScript
+aquasecurity/trivy,"Security scanner for containers and other artifacts.",https://www.aquasec.com/about-us/careers/,"security, container-security, vulnerability-scanner, kubernetes, devops",Go
+anchore/grype,"Vulnerability scanner for container images and filesystems.",https://anchore.com/careers/,"security, vulnerability-scanner, container-security, sbom, devops",Go
+anchore/syft,"CLI tool and library for generating Software Bill of Materials (SBOM).",https://anchore.com/careers/,"sbom, security, supply-chain, vulnerability, containers",Go
+sigstore/cosign,"Container signing and verification tool.",https://www.chainguard.dev/careers,"security, signing, containers, supply-chain, sbom",Go
+falcosecurity/falco,"Cloud-native runtime security tool.",https://sysdig.com/careers/,"security, runtime-security, kubernetes, threat-detection, cloud-native",C++
+open-policy-agent/opa,"Open Policy Agent for unified policy enforcement.",https://www.styra.com/careers/,"policy, security, authorization, kubernetes, cloud-native",Go
+spiffe/spire,"SPIFFE Runtime Environment for workload identity.",https://www.cncf.io/about/join/careers/,"security, identity, spiffe, zero-trust, authentication",Go
+cert-manager/cert-manager,"Automatically provision and manage TLS certificates in Kubernetes.",https://www.jetstack.io/careers/,"kubernetes, certificates, tls, security, automation",Go
+hashicorp/consul,"Service networking solution to connect and secure services.",https://www.hashicorp.com/en/careers/open-positions,"service-mesh, networking, service-discovery, consul, distributed-systems",Go
+cilium/cilium,"eBPF-based networking, observability, and security for cloud native.",https://www.isovalent.com/careers/,"networking, ebpf, kubernetes, security, service-mesh",Go
+tetratelabs/getenvoy,"Envoy binary distribution and extensions.",https://www.tetrate.io/careers/,"envoy, proxy, service-mesh, istio, cloud-native",Go
+tetratelabs/istio-distro,"Tetrate Istio Distribution for production-grade service mesh.",https://www.tetrate.io/careers/,"istio, service-mesh, kubernetes, enterprise, cloud-native",Go
+dapr/dapr,"Portable, event-driven runtime for building distributed applications.",https://www.diagrid.io/careers,"distributed-systems, microservices, event-driven, cloud-native, runtime",Go
+crossplane/crossplane,"Cloud Native Control Planes for infrastructure and services.",https://www.upbound.io/careers/,"infrastructure-as-code, kubernetes, cloud-native, control-plane, multi-cloud",Go
+argoproj/argo-cd,"Declarative continuous deployment for Kubernetes.",https://www.akuity.io/careers/,"gitops, kubernetes, continuous-deployment, argocd, devops",Go

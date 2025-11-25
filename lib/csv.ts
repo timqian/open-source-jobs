@@ -4,6 +4,8 @@ import Papa from 'papaparse';
 
 export interface Job {
     repository: string;
+    companyName: string;
+    companyUrl: string;
     description: string;
     jobPage: string;
     tags: string[];
@@ -21,6 +23,8 @@ export async function getJobs(): Promise<Job[]> {
             // Map CSV headers to interface keys
             const headerMap: Record<string, string> = {
                 'Repository': 'repository',
+                'Company Name': 'companyName',
+                'Company URL': 'companyUrl',
                 'Description': 'description',
                 'Job Page': 'jobPage',
                 'Tags': 'tags',

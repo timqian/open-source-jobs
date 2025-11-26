@@ -1,0 +1,94 @@
+name: Add New Repository
+description: Submit a new open source repository with job opportunities
+title: "[New Repo]: "
+labels: ["new-repository"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to add a new repository! Please fill out the form below.
+
+  - type: input
+    id: repository
+    attributes:
+      label: Repository
+      description: GitHub repository (e.g., facebook/react)
+      placeholder: "organization/repository"
+    validations:
+      required: true
+
+  - type: input
+    id: company-name
+    attributes:
+      label: Company Name
+      description: Name of the company hiring for this project
+      placeholder: "e.g., Meta"
+    validations:
+      required: true
+
+  - type: input
+    id: company-url
+    attributes:
+      label: Company URL
+      description: Official company website
+      placeholder: "https://www.company.com"
+    validations:
+      required: true
+
+  - type: input
+    id: career-url
+    attributes:
+      label: Career/Job Page URL
+      description: Direct link to the company's careers page or job listings
+      placeholder: "https://www.company.com/careers"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Repository Description
+      description: Brief description of the repository
+      placeholder: "A declarative, efficient, and flexible JavaScript library for building user interfaces."
+    validations:
+      required: true
+
+  - type: input
+    id: language
+    attributes:
+      label: Primary Language
+      description: Main programming language used in the repository
+      placeholder: "JavaScript"
+    validations:
+      required: true
+
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: Comma-separated tags (e.g., frontend, react, ui, library)
+      placeholder: "frontend, react, ui, library"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: Verification
+      description: Please confirm the following
+      options:
+        - label: This repository is actively maintained and the company is currently hiring
+          required: true
+        - label: I have verified that the career/job page URL is correct and active
+          required: true
+        - label: This repository is not already in the list
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        ### What happens next?
+
+        Once you submit this issue, a maintainer will review your submission and add the repository to the CSV file if it meets the criteria. Thank you for contributing!

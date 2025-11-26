@@ -48,9 +48,7 @@ export function JobList({ jobs }: JobListProps) {
     }
 
     result.sort((a, b) => {
-      const repoA = a.repository.split("/")[1] || a.repository;
-      const repoB = b.repository.split("/")[1] || b.repository;
-      return repoA.localeCompare(repoB);
+      return a.companyName.localeCompare(b.companyName);
     });
 
     return result;
@@ -107,11 +105,11 @@ export function JobList({ jobs }: JobListProps) {
       <Table>
         <TableHeader>
           <TableRow>
-            <TableHead className="w-[300px]">Repository</TableHead>
-            <TableHead>Description</TableHead>
-            <TableHead>Language</TableHead>
-            <TableHead>Tags</TableHead>
-            <TableHead className="text-right">Job Page</TableHead>
+            <TableHead className="w-[200px] font-semibold text-zinc-900 dark:text-zinc-100">Company</TableHead>
+            <TableHead className="w-[350px] font-semibold text-zinc-900 dark:text-zinc-100">Repository</TableHead>
+            <TableHead className="font-semibold text-zinc-900 dark:text-zinc-100">Language</TableHead>
+            <TableHead className="font-semibold text-zinc-900 dark:text-zinc-100">Tags</TableHead>
+            <TableHead className="text-right font-semibold text-zinc-900 dark:text-zinc-100">Job Page</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
@@ -120,26 +118,48 @@ export function JobList({ jobs }: JobListProps) {
             return (
               <TableRow key={job.repository}>
                 <TableCell className="font-medium">
-                  <div className="flex items-center gap-2 flex-wrap">
-                    <a
-                      href={`https://github.com/${job.repository}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-base hover:underline"
-                    >
-                      <span className="text-zinc-500 dark:text-zinc-400">
-                        {org}/
-                      </span>
-                      <span className="font-semibold">{repo}</span>
-                    </a>
+                  <a
+                    href={job.companyUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-base font-semibold hover:underline text-zinc-900 dark:text-zinc-100"
+                  >
                     <img
-                      src={`https://img.shields.io/github/stars/${job.repository}.svg?style=social&label=%20`}
-                      alt={`${job.repository} stars`}
-                      className="h-5"
+                      src={`https://www.google.com/s2/favicons?domain=${job.companyUrl}&sz=32`}
+                      alt={`${job.companyName} favicon`}
+                      className="w-4 h-4 rounded-sm"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                      }}
                     />
+                    {job.companyName}
+                  </a>
+                </TableCell>
+                <TableCell>
+                  <div className="flex flex-col gap-2">
+                    <div className="flex items-center gap-2 flex-wrap">
+                      <a
+                        href={`https://github.com/${job.repository}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-base hover:underline"
+                      >
+                        <span className="text-zinc-500 dark:text-zinc-400 font-normal">
+                          
+                        </span>
+                        <span className="font-semibold text-zinc-900 dark:text-zinc-100">{org}/{repo}</span>
+                      </a>
+                      <img
+                        src={`https://img.shields.io/github/stars/${job.repository}.svg?style=social&label=%20`}
+                        alt={`${job.repository} stars`}
+                        className="h-5"
+                      />
+                    </div>
+                    <div className="text-sm text-zinc-600 dark:text-zinc-400 font-normal leading-relaxed">
+                      {job.description}
+                    </div>
                   </div>
                 </TableCell>
-                <TableCell>{job.description}</TableCell>
                 <TableCell>
                   {job.language && (
                     <span className="inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10 dark:bg-blue-900/30 dark:text-blue-400 dark:ring-blue-400/30">
@@ -164,7 +184,7 @@ export function JobList({ jobs }: JobListProps) {
                     href={job.jobPage}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-600 hover:underline dark:text-blue-400"
+                    className="inline-flex items-center justify-center rounded-md bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 text-white text-sm font-medium px-4 py-1.5 transition-colors"
                   >
                     Apply
                   </a>

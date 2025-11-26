@@ -1,5 +1,6 @@
 import { getJobs } from "@/lib/csv";
 import { JobList } from "@/components/job-list";
+import { PostJobModal } from "@/components/post-job-modal";
 import Image from "next/image";
 
 export default async function Home() {
@@ -22,12 +23,16 @@ export default async function Home() {
                 <Image src="/favicon.ico" alt="Logo" width={32} height={32} className="w-8 h-8" unoptimized />
                 {/* Open Source Jobs */}
               </a>
+
             </div>
             <a
-              href="https://github.com/timqian/open-source-jobs/blob/main/repos.csv"
-              className="inline-flex items-center justify-center rounded-md bg-zinc-900 dark:bg-zinc-100 text-white dark:text-zinc-900 hover:bg-zinc-700 dark:hover:bg-zinc-300 text-sm font-medium px-4 py-2 transition-colors"
+              href="https://github.com/timqian/open-source-jobs"
             >
-              Post a job
+              <img
+                src="https://img.shields.io/github/stars/timqian/open-source-jobs?style=social&label=Star"
+                alt="GitHub stars"
+                className="h-6"
+              />
             </a>
           </div>
         </div>
@@ -35,13 +40,17 @@ export default async function Home() {
 
       {/* Hero Section */}
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-8">
-        <div className="text-center mb-12">
-          <h1 className="text-5xl sm:text-6xl font-bold tracking-tight bg-gradient-to-r from-zinc-900 via-zinc-700 to-zinc-900 dark:from-zinc-100 dark:via-zinc-400 dark:to-zinc-100 bg-clip-text text-transparent mb-4 animate-fade-in">
+        <div className="text-center mb-6 flex flex-col gap-4">
+          <h1 className="text-5xl sm:text-6xl font-bold tracking-tight bg-gradient-to-r from-zinc-900 via-zinc-700 to-zinc-900 dark:from-zinc-100 dark:via-zinc-400 dark:to-zinc-100 bg-clip-text text-transparent animate-fade-in">
             Open Source Jobs
           </h1>
           <p className="text-xl text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto animate-fade-in">
             List of Open Source projects offering jobs.
           </p>
+
+          <div className="flex justify-center">
+            <PostJobModal />
+          </div>
         </div>
       </div>
 

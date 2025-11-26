@@ -34,8 +34,10 @@ const headers = parseCSVLine(lines[0]);
 
 // 找到需要的列的索引
 const repoIndex = headers.indexOf('Repository');
+const companyNameIndex = headers.indexOf('Company Name');
+const companyUrlIndex = headers.indexOf('Company URL');
 const descIndex = headers.indexOf('Description');
-const jobIndex = headers.indexOf('Job Page');
+const careerUrlIndex = headers.indexOf('Career URL');
 
 // 收集所有数据行
 const rows = [];
@@ -45,41 +47,46 @@ for (let i = 1; i < lines.length; i++) {
 
     const columns = parseCSVLine(line);
     const repo = columns[repoIndex] || '';
+    const companyName = columns[companyNameIndex] || '';
+    const companyUrl = columns[companyUrlIndex] || '';
     const desc = columns[descIndex] || '';
-    const jobPage = columns[jobIndex] || '';
-
-    // 提取仓库名称（去掉组织名）用于排序
-    const repoName = repo.includes('/') ? repo.split('/')[1] : repo;
+    const careerUrl = columns[careerUrlIndex] || '';
 
     rows.push({
         repo,
+        companyName,
+        companyUrl,
         desc,
-        jobPage,
-        repoName: repoName.toLowerCase() // 用于排序
+        careerUrl
     });
 }
 
-// 按照仓库名称字母顺序排序
-rows.sort((a, b) => a.repoName.localeCompare(b.repoName));
+// 按照公司名称字母顺序排序
+rows.sort((a, b) => a.companyName.localeCompare(b.companyName));
 
 // 生成 Markdown 表格
 let markdownTable = '\n## Job List\n\n';
 markdownTable += '> Note: This list is generated automatically. Please do not edit it manually. Visit https://open-source-jobs.com to filter/submit jobs.\n\n';
-markdownTable += '| Repository | Description | Job Page |\n';
-markdownTable += '|------------|-------------|----------|\n';
+markdownTable += '| Company | Repository | Job Page |\n';
+markdownTable += '|---------|------------|----------|\n';
 
 // 生成表格行
 for (const row of rows) {
+    // Company 列：公司名称链接
+    const companyLink = `[${row.companyName}](${row.companyUrl})`;
+
+    // Repository 列：仓库链接 + star badge + 描述
     const repoUrl = row.repo.includes('http') ? row.repo : `https://github.com/${row.repo}`;
     const repoLink = `[${row.repo}](${repoUrl})`;
-
-    // 添加 star count badge
     const starBadge = `![Stars](https://img.shields.io/github/stars/${row.repo}?style=social&label=%20)`;
-    const repoWithBadge = `${repoLink} ${starBadge}`;
 
-    const jobLink = row.jobPage ? `[Apply](${row.jobPage})` : '';
+    // 使用 <br> 在同一单元格内换行
+    const repoContent = `${repoLink} ${starBadge}<br>${row.desc}`;
 
-    markdownTable += `| ${repoWithBadge} | ${row.desc} | ${jobLink} |\n`;
+    // Job Page 列
+    const jobLink = row.careerUrl ? `[Apply](${row.careerUrl})` : '';
+
+    markdownTable += `| ${companyLink} | ${repoContent} | ${jobLink} |\n`;
 }
 
 // 读取现有的 README

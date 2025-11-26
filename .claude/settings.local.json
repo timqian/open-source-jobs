@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node fix-company-info.js:*)",
+      "Bash(node -e:*)",
+      "Bash(node fix-real-companies.js:*)",
+      "Bash(cut -d',' -f1-2 echo \"\" echo \"Prometheus 生态系统：\" grep \"^prometheus/\\|^thanos-io/\\|^cortexproject/\" repos.csv)",
+      "Bash(cut -d',' -f1-2 echo \"\" echo \"其他重要项目：\" grep \"^jaegertracing/\\|^open-telemetry/\\|^helm/\" repos.csv)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

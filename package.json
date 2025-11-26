@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "update-repos": "npx tsx scripts/update-repos.ts"
+    "update-repos": "npx tsx scripts/update-repos.ts",
+    "update-readme": "node scripts/update-readme.js"
   },
   "dependencies": {
     "@radix-ui/react-select": "^2.2.6",

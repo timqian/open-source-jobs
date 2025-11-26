@@ -2,7 +2,7 @@
 A list of Open Source projects offering jobs. For those who want to work on open source and get paid.
 ## Job List
 
-> Note: This list is generated automatically. Please do not edit it manually. Visit https://open-source-jobs.com to filter/submit jobs.
+> **Note:** This list is auto-generated. [Better view](https://open-source-jobs.com) | [Edit list](repos.csv) | [Add new repo](https://github.com/timqian/open-source-jobs/issues/new?template=new-repository.yml)
 
 | Company | Repository | Job Page |
 |---------|------------|----------|

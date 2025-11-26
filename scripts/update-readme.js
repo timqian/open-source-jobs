@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // 读取 repos.csv
-const csvPath = path.join(__dirname, 'repos.csv');
+const csvPath = path.join(__dirname, '..', 'repos.csv');
 const csvContent = fs.readFileSync(csvPath, 'utf8');
 
 // 解析 CSV（简单解析，处理引号内的逗号）
@@ -66,7 +66,7 @@ rows.sort((a, b) => a.companyName.localeCompare(b.companyName));
 
 // 生成 Markdown 表格
 let markdownTable = '\n## Job List\n\n';
-markdownTable += '> Note: This list is generated automatically. Please do not edit it manually. Visit https://open-source-jobs.com to filter/submit jobs.\n\n';
+markdownTable += '> **Note:** This list is auto-generated. [Better view](https://open-source-jobs.com) | [Edit list](repos.csv) | [Add new repo](https://github.com/timqian/open-source-jobs/issues/new?template=new-repository.yml)\n\n';
 markdownTable += '| Company | Repository | Job Page |\n';
 markdownTable += '|---------|------------|----------|\n';
 
@@ -90,7 +90,7 @@ for (const row of rows) {
 }
 
 // 读取现有的 README
-const readmePath = path.join(__dirname, 'README.md');
+const readmePath = path.join(__dirname, '..', 'README.md');
 let readmeContent = fs.readFileSync(readmePath, 'utf8');
 
 // 移除旧的 Job List 部分（如果存在）

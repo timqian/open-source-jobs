@@ -1,0 +1,30 @@
+[
+  {
+    "id": "a23a2f9288f11d627061a7c13d29d21f1ed6b776",
+    "type": "repo-update",
+    "title": "Add maximhq/bifrost",
+    "message": "Add maximhq/bifrost",
+    "date": "2025-11-26T07:04:40.000Z",
+    "html_url": "https://github.com/timqian/open-source-jobs/commit/a23a2f9288f11d627061a7c13d29d21f1ed6b776",
+    "author": {
+      "login": "timqian",
+      "email": "timqian@t9t.io",
+      "avatar_url": null,
+      "html_url": null
+    },
+    "changes": {
+      "added": [
+        {
+          "repository": "maximhq/bifrost",
+          "companyName": "Maxim AI",
+          "companyUrl": "https://www.getmaxim.ai",
+          "careerUrl": "https://www.getmaxim.ai/careers",
+          "tags": "gateway, llm, mcp-server",
+          "language": "Go",
+          "description": "Bifrost is a high-performance open source LLM gateway that connects 1000+ models through a single API interface with extremely high throughput."
+        }
+      ],
+      "removed": []
+    }
+  }
+]

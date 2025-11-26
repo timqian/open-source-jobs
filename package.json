@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "update-repos": "npx tsx scripts/update-repos.ts",
-    "update-readme": "node scripts/update-readme.js"
+    "update-readme": "node scripts/update-readme.js",
+    "fetch-updates": "node scripts/fetch-releases.js"
   },
   "dependencies": {
     "@radix-ui/react-select": "^2.2.6",

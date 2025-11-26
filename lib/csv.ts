@@ -31,6 +31,10 @@ export async function getJobs(): Promise<Job[]> {
                 'Language': 'language'
             };
             return headerMap[header] || header;
+        },
+        transform: (value) => {
+            // Trim whitespace from all field values
+            return value.trim();
         }
     });
 

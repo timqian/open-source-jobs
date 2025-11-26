@@ -1,8 +1,8 @@
-blank_issues_enabled: false
-contact_links:
-  - name: 📝 Edit CSV Directly
-    url: https://github.com/timqian/open-source-jobs/blob/main/repos.csv
-    about: Experienced users can directly edit the repos.csv file
-  - name: 💬 Discussions
-    url: https://github.com/timqian/open-source-jobs/discussions
-    about: Ask questions and discuss with the community
+# blank_issues_enabled: false
+# contact_links:
+#   - name: 📝 Edit CSV Directly
+#     url: https://github.com/timqian/open-source-jobs/blob/main/repos.csv
+#     about: Experienced users can directly edit the repos.csv file
+#   - name: 💬 Discussions
+#     url: https://github.com/timqian/open-source-jobs/discussions
+#     about: Ask questions and discuss with the community

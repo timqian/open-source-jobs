@@ -1,7 +1,7 @@
 import { getJobs } from "@/lib/csv";
 import { JobList } from "@/components/job-list";
 import { PostJobModal } from "@/components/post-job-modal";
-import Image from "next/image";
+import { Nav } from "@/components/nav";
 
 export default async function Home() {
   const jobs = await getJobs();
@@ -15,28 +15,7 @@ export default async function Home() {
       </div>
 
       {/* Navigation */}
-      <nav className="sticky top-0 z-50 bg-white/80 dark:bg-black/80 backdrop-blur-md border-b border-zinc-200">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-13">
-            <div className="flex items-center gap-3">
-              <a href="/" className="flex items-center gap-2 text-lg font-semibold hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors">
-                <Image src="/favicon.ico" alt="Logo" width={32} height={32} className="w-8 h-8" unoptimized />
-                {/* Open Source Jobs */}
-              </a>
-
-            </div>
-            <a
-              href="https://github.com/timqian/open-source-jobs"
-            >
-              <img
-                src="https://img.shields.io/github/stars/timqian/open-source-jobs?style=social&label=Star"
-                alt="GitHub stars"
-                className="h-6"
-              />
-            </a>
-          </div>
-        </div>
-      </nav>
+      <Nav />
 
       {/* Hero Section */}
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-8">

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Source Jobs - Updates</title>
+    <link>https://open-source-jobs.com</link>
+    <description>Latest job opportunities from open source projects</description>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Nov 2025 07:31:04 GMT</lastBuildDate>
+    <atom:link href="https://open-source-jobs.com/rss.xml" rel="self" type="application/rss+xml" />
+
+    <item>
+      <title>Add maximhq/bifrost</title>
+      <link>https://github.com/timqian/open-source-jobs/commit/a23a2f9288f11d627061a7c13d29d21f1ed6b776</link>
+      <guid isPermaLink="false">a23a2f9288f11d627061a7c13d29d21f1ed6b776</guid>
+      <pubDate>Wed, 26 Nov 2025 07:04:40 GMT</pubDate>
+      <description><![CDATA[<h3>Added 1 repository:</h3><ul><li><strong><a href="https://github.com/maximhq/bifrost">maximhq/bifrost</a></strong> by Maxim AI<br/>Bifrost is a high-performance open source LLM gateway that connects 1000+ models through a single API interface with extremely high throughput.<br/><a href="https://www.getmaxim.ai/careers">Apply for job</a></li></ul>]]></description>
+    </item>
+  </channel>
+</rss>

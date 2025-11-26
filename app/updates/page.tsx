@@ -1,6 +1,23 @@
 import { Nav } from "@/components/nav";
 import fs from "fs";
 import path from "path";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Updates - Open Source Jobs",
+  description: "Recent job updates and new repositories added to Open Source Jobs",
+  openGraph: {
+    title: "Updates - Open Source Jobs",
+    description: "Recent job updates and new repositories added to Open Source Jobs",
+    url: "https://open-source-jobs.com/updates",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Updates - Open Source Jobs",
+    description: "Recent job updates and new repositories added to Open Source Jobs",
+  },
+};
 
 interface RepoChange {
   repository: string;

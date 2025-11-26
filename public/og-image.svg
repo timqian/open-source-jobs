@@ -1,0 +1,35 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fafafa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f4f4f5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#18181b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#52525b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="150" cy="150" r="200" fill="#3b82f6" opacity="0.1"/>
+  <circle cx="1050" cy="480" r="180" fill="#8b5cf6" opacity="0.1"/>
+
+  <!-- Main text -->
+  <text x="600" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="80" font-weight="bold" text-anchor="middle" fill="url(#textGradient)">
+    Open Source Jobs
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="350" font-family="system-ui, -apple-system, sans-serif" font-size="32" text-anchor="middle" fill="#71717a">
+    Find your next open source opportunity
+  </text>
+
+  <!-- URL -->
+  <text x="600" y="480" font-family="system-ui, -apple-system, sans-serif" font-size="24" text-anchor="middle" fill="#3b82f6">
+    open-source-jobs.com
+  </text>
+</svg>

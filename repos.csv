@@ -1,4 +1,5 @@
 Repository,Company Name,Company URL,Career URL,Tags,Language,Description
+maximhq/bifrost, Maxim AI, https://www.getmaxim.ai,https://www.getmaxim.ai/careers,"gateway, llm, mcp-server",Go,"Bifrost is a high-performance open source LLM gateway that connects 1000+ models through a single API interface with extremely high throughput."
 vitejs/vite,VoidZero Inc.,https://voidzero.dev,https://voidzero.dev/team,"frontend, javascript, typescript, vite",TypeScript,Next Generation Frontend Tooling
 elastic/elasticsearch,Elastic,https://www.elastic.co,https://www.elastic.co/about/careers/,"elasticsearch, java, search-engine",Java,"Free and Open Source, Distributed, RESTful Search Engine"
 grafana/grafana,Grafana Labs,https://grafana.com,https://grafana.com/about/hiring,"alerting, analytics, business-intelligence, dashboard, data-visualization, elasticsearch, go, grafana, hacktoberfest, influxdb, metrics, monitoring, mysql, postgres, prometheus",TypeScript,"The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. "

@@ -19,17 +19,12 @@
   <circle cx="1050" cy="480" r="180" fill="#8b5cf6" opacity="0.1"/>
 
   <!-- Main text -->
-  <text x="600" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="80" font-weight="bold" text-anchor="middle" fill="url(#textGradient)">
-    Open Source Jobs
+  <text x="600" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="bold" text-anchor="middle" fill="url(#textGradient)">
+    open-source-jobs.com
   </text>
 
   <!-- Subtitle -->
-  <text x="600" y="350" font-family="system-ui, -apple-system, sans-serif" font-size="32" text-anchor="middle" fill="#71717a">
-    Find your next open source opportunity
-  </text>
-
-  <!-- URL -->
-  <text x="600" y="480" font-family="system-ui, -apple-system, sans-serif" font-size="24" text-anchor="middle" fill="#3b82f6">
-    open-source-jobs.com
+  <text x="600" y="370" font-family="system-ui, -apple-system, sans-serif" font-size="32" text-anchor="middle" fill="#71717a">
+    A List of Open Source projects offering jobs.
   </text>
 </svg>

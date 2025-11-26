@@ -1,0 +1,57 @@
+name: Auto Update
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'repos.csv'
+  pull_request:
+    paths:
+      - 'repos.csv'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  auto-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: ${{ github.head_ref || github.ref }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Run update README script
+        run: node scripts/update-readme.js
+
+      - name: Run fetch updates and generate RSS
+        run: node scripts/fetch-releases.js
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md data/updates.json public/rss.xml
+
+          # Check if there are changes
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: auto-update README, updates and RSS from repos.csv"
+
+            # For PRs, push to the PR branch
+            if [ "${{ github.event_name }}" = "pull_request" ]; then
+              git push origin HEAD:${{ github.head_ref }}
+            else
+              # For direct pushes to main/master
+              git push
+            fi
+          fi

@@ -8,7 +8,8 @@
       "Bash(cut -d',' -f1-2 echo \"\" echo \"其他重要项目：\" grep \"^jaegertracing/\\|^open-telemetry/\\|^helm/\" repos.csv)",
       "Bash(node scripts/update-readme.js:*)",
       "Bash(npm run dev:*)",
-      "Bash(node scripts/fetch-releases.js:*)"
+      "Bash(node scripts/fetch-releases.js:*)",
+      "Bash(node scripts/generate-update-from-diff.js:*)"
     ],
     "deny": [],
     "ask": []

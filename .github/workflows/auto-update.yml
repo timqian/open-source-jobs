@@ -1,15 +1,13 @@
 name: Auto Update
 
 on:
-  push:
-    branches:
-      - main
-      - master
+  pull_request:
     paths:
       - 'repos.csv'
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   auto-update:
@@ -20,22 +18,30 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0  # Fetch all history for proper diff
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
 
+      - name: Fetch base branch
+        run: git fetch origin ${{ github.base_ref }}
+
       - name: Run update README script
         run: node scripts/update-readme.js
 
-      - name: Run fetch updates and generate RSS
-        run: node scripts/fetch-releases.js
+      - name: Generate updates from diff
+        run: node scripts/generate-update-from-diff.js
 
       - name: Commit and push if changed
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add README.md data/updates.json public/rss.xml
-          git diff --staged --quiet || git commit -m "chore: auto-update README, updates and RSS from repos.csv"
-          git push
+
+          # Check if there are changes
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: auto-update README, updates and RSS from repos.csv"
+            git push origin HEAD:${{ github.head_ref }}
+          fi

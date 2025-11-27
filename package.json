@@ -9,6 +9,7 @@
     "lint": "eslint",
     "update-repos": "npx tsx scripts/update-repos.ts",
     "update-readme": "node scripts/update-readme.js",
+    "update-from-diff": "node scripts/generate-update-from-diff.js",
     "fetch-updates": "node scripts/fetch-releases.js"
   },
   "dependencies": {

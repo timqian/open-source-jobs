@@ -143,3 +143,4 @@ tetratelabs/getenvoy,Tetrate,https://www.tetrate.io,https://www.tetrate.io/caree
 tetratelabs/istio-distro,Tetrate,https://www.tetrate.io,https://www.tetrate.io/careers/,"istio, service-mesh, kubernetes, enterprise, cloud-native",Go,Tetrate Istio Distribution for production-grade service mesh.
 dapr/dapr,Diagrid,https://www.diagrid.io,https://www.diagrid.io/careers,"distributed-systems, microservices, event-driven, cloud-native, runtime",Go,"Portable, event-driven runtime for building distributed applications."
 argoproj/argo-cd,Akuity,https://www.akuity.io,https://www.akuity.io/careers/,"gitops, kubernetes, continuous-deployment, argocd, devops",Go,Declarative continuous deployment for Kubernetes.
+openedx/edx-platform,OpenCraft,https://opencraft.com/,https://opencraft.com/jobs/,"edx, education",Python,The Open edX LMS & Studio, powering education sites around the world!

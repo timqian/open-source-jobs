@@ -1,5 +1,33 @@
 [
   {
+    "id": "7d71f69378b5f4a2ce7d7ea3216b37f73e538443",
+    "type": "repo-update",
+    "title": "Add openedx/edx-platform repository (#151)",
+    "message": "Add openedx/edx-platform repository (#151)",
+    "date": "2025-11-27T02:42:53.000Z",
+    "html_url": "https://github.com/timqian/open-source-jobs/commit/7d71f69378b5f4a2ce7d7ea3216b37f73e538443",
+    "author": {
+      "login": "Copilot",
+      "email": "198982749+Copilot@users.noreply.github.com",
+      "avatar_url": null,
+      "html_url": null
+    },
+    "changes": {
+      "added": [
+        {
+          "repository": "openedx/edx-platform",
+          "companyName": "OpenCraft",
+          "companyUrl": "https://opencraft.com/",
+          "careerUrl": "https://opencraft.com/jobs/",
+          "tags": "edx, education",
+          "language": "Python",
+          "description": "The Open edX LMS & Studio"
+        }
+      ],
+      "removed": []
+    }
+  },
+  {
     "id": "a23a2f9288f11d627061a7c13d29d21f1ed6b776",
     "type": "repo-update",
     "title": "Add maximhq/bifrost",

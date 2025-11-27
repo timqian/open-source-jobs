@@ -5,9 +5,16 @@
     <link>https://open-source-jobs.com</link>
     <description>Latest job opportunities from open source projects</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Nov 2025 11:05:19 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 27 Nov 2025 02:49:41 GMT</lastBuildDate>
     <atom:link href="https://open-source-jobs.com/rss.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Add openedx/edx-platform repository (#151)</title>
+      <link>https://github.com/timqian/open-source-jobs/commit/7d71f69378b5f4a2ce7d7ea3216b37f73e538443</link>
+      <guid isPermaLink="false">7d71f69378b5f4a2ce7d7ea3216b37f73e538443</guid>
+      <pubDate>Thu, 27 Nov 2025 02:42:53 GMT</pubDate>
+      <description><![CDATA[<h3>Added 1 repository:</h3><ul><li><strong><a href="https://github.com/openedx/edx-platform">openedx/edx-platform</a></strong> by OpenCraft<br/>The Open edX LMS &amp; Studio<br/><a href="https://opencraft.com/jobs/">Apply for job</a></li></ul>]]></description>
+    </item>
     <item>
       <title>Add maximhq/bifrost</title>
       <link>https://github.com/timqian/open-source-jobs/commit/a23a2f9288f11d627061a7c13d29d21f1ed6b776</link>

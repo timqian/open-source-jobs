@@ -1,5 +1,33 @@
 [
   {
+    "id": "25feed22ae211f941debc5f881a38ae881536d5d",
+    "type": "repo-update",
+    "title": "Merge 4fe7943fc3cf1f7cdcfec7228d2a437a24832928 into eff6f8413cdc3757f822b4b17f673ac12a05e683",
+    "message": "Merge 4fe7943fc3cf1f7cdcfec7228d2a437a24832928 into eff6f8413cdc3757f822b4b17f673ac12a05e683",
+    "date": "2025-11-28T01:46:43.000Z",
+    "html_url": "https://github.com/timqian/open-source-jobs/commit/25feed22ae211f941debc5f881a38ae881536d5d",
+    "author": {
+      "login": "Copilot",
+      "email": "198982749+Copilot@users.noreply.github.com",
+      "avatar_url": null,
+      "html_url": null
+    },
+    "changes": {
+      "added": [
+        {
+          "repository": "penpot/penpot",
+          "companyName": "Penpot",
+          "companyUrl": "https://penpot.app",
+          "careerUrl": "https://penpot.app/careers",
+          "tags": "design, clojure, ui, clojurescript, prototyping, ux-experience, ux-design",
+          "language": "Clojure",
+          "description": "Penpot: The open-source design tool for design and code collaboration"
+        }
+      ],
+      "removed": []
+    }
+  },
+  {
     "id": "7d71f69378b5f4a2ce7d7ea3216b37f73e538443",
     "type": "repo-update",
     "title": "Add openedx/edx-platform repository (#151)",

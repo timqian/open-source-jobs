@@ -144,3 +144,4 @@ tetratelabs/istio-distro,Tetrate,https://www.tetrate.io,https://www.tetrate.io/c
 dapr/dapr,Diagrid,https://www.diagrid.io,https://www.diagrid.io/careers,"distributed-systems, microservices, event-driven, cloud-native, runtime",Go,"Portable, event-driven runtime for building distributed applications."
 argoproj/argo-cd,Akuity,https://www.akuity.io,https://www.akuity.io/careers/,"gitops, kubernetes, continuous-deployment, argocd, devops",Go,Declarative continuous deployment for Kubernetes.
 openedx/edx-platform,OpenCraft,https://opencraft.com/,https://opencraft.com/jobs/,"edx, education",Python,The Open edX LMS & Studio, powering education sites around the world!
+penpot/penpot,Penpot,https://penpot.app,https://penpot.app/careers,"design, clojure, ui, clojurescript, prototyping, ux-experience, ux-design",Clojure,Penpot: The open-source design tool for design and code collaboration

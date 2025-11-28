@@ -5,9 +5,16 @@
     <link>https://open-source-jobs.com</link>
     <description>Latest job opportunities from open source projects</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Nov 2025 02:49:41 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Nov 2025 01:52:15 GMT</lastBuildDate>
     <atom:link href="https://open-source-jobs.com/rss.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Merge 4fe7943fc3cf1f7cdcfec7228d2a437a24832928 into eff6f8413cdc3757f822b4b17f673ac12a05e683</title>
+      <link>https://github.com/timqian/open-source-jobs/commit/25feed22ae211f941debc5f881a38ae881536d5d</link>
+      <guid isPermaLink="false">25feed22ae211f941debc5f881a38ae881536d5d</guid>
+      <pubDate>Fri, 28 Nov 2025 01:46:43 GMT</pubDate>
+      <description><![CDATA[<h3>Added 1 repository:</h3><ul><li><strong><a href="https://github.com/penpot/penpot">penpot/penpot</a></strong> by Penpot<br/>Penpot: The open-source design tool for design and code collaboration<br/><a href="https://penpot.app/careers">Apply for job</a></li></ul>]]></description>
+    </item>
     <item>
       <title>Add openedx/edx-platform repository (#151)</title>
       <link>https://github.com/timqian/open-source-jobs/commit/7d71f69378b5f4a2ce7d7ea3216b37f73e538443</link>

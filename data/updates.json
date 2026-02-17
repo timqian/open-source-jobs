@@ -1,5 +1,33 @@
 [
   {
+    "id": "3eb0be06f71f2a680cfe927faf183e6f4558a93c",
+    "type": "repo-update",
+    "title": "Merge b9f594742e933fe483ec9ee21b93fa7c15913df4 into 0df8a448c0e95ed4e87b95e00ef432039ca84b22",
+    "message": "Merge b9f594742e933fe483ec9ee21b93fa7c15913df4 into 0df8a448c0e95ed4e87b95e00ef432039ca84b22",
+    "date": "2026-02-17T02:35:04.000Z",
+    "html_url": "https://github.com/timqian/open-source-jobs/commit/3eb0be06f71f2a680cfe927faf183e6f4558a93c",
+    "author": {
+      "login": "Copilot",
+      "email": "198982749+Copilot@users.noreply.github.com",
+      "avatar_url": null,
+      "html_url": null
+    },
+    "changes": {
+      "added": [
+        {
+          "repository": "open62541/open62541",
+          "companyName": "o6 Automation GmbH",
+          "companyUrl": "https://www.o6-automation.com/",
+          "careerUrl": "https://www.o6-automation.com/company",
+          "tags": "opcua, open62541, Linux, embedded",
+          "language": "C, C++",
+          "description": "Open source implementation of OPC UA (OPC Unified Architecture / IEC 62541) written in C. Platform independent with exchangeable plugins for easy porting to different embedded targets."
+        }
+      ],
+      "removed": []
+    }
+  },
+  {
     "id": "25feed22ae211f941debc5f881a38ae881536d5d",
     "type": "repo-update",
     "title": "Merge 4fe7943fc3cf1f7cdcfec7228d2a437a24832928 into eff6f8413cdc3757f822b4b17f673ac12a05e683",

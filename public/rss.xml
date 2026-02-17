@@ -5,9 +5,16 @@
     <link>https://open-source-jobs.com</link>
     <description>Latest job opportunities from open source projects</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Nov 2025 01:52:15 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 02:38:53 GMT</lastBuildDate>
     <atom:link href="https://open-source-jobs.com/rss.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Merge b9f594742e933fe483ec9ee21b93fa7c15913df4 into 0df8a448c0e95ed4e87b95e00ef432039ca84b22</title>
+      <link>https://github.com/timqian/open-source-jobs/commit/3eb0be06f71f2a680cfe927faf183e6f4558a93c</link>
+      <guid isPermaLink="false">3eb0be06f71f2a680cfe927faf183e6f4558a93c</guid>
+      <pubDate>Tue, 17 Feb 2026 02:35:04 GMT</pubDate>
+      <description><![CDATA[<h3>Added 1 repository:</h3><ul><li><strong><a href="https://github.com/open62541/open62541">open62541/open62541</a></strong> by o6 Automation GmbH<br/>Open source implementation of OPC UA (OPC Unified Architecture / IEC 62541) written in C. Platform independent with exchangeable plugins for easy porting to different embedded targets.<br/><a href="https://www.o6-automation.com/company">Apply for job</a></li></ul>]]></description>
+    </item>
     <item>
       <title>Merge 4fe7943fc3cf1f7cdcfec7228d2a437a24832928 into eff6f8413cdc3757f822b4b17f673ac12a05e683</title>
       <link>https://github.com/timqian/open-source-jobs/commit/25feed22ae211f941debc5f881a38ae881536d5d</link>

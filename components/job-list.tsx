@@ -49,7 +49,7 @@ export function JobList({ jobs }: JobListProps) {
         job.repository.toLowerCase().includes(query) ||
         job.description.toLowerCase().includes(query) ||
         job.tags.some((tag) => tag.toLowerCase().includes(query)) ||
-        job.language.toLowerCase().includes(query)
+        job.language?.toLowerCase().includes(query)
       );
     }
 

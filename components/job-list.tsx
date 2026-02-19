@@ -16,6 +16,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { Input } from "@/components/ui/input";
 import { useState, useMemo } from "react";
 
 interface JobListProps {
@@ -25,6 +26,7 @@ interface JobListProps {
 export function JobList({ jobs }: JobListProps) {
   const [selectedLanguage, setSelectedLanguage] = useState<string>("all");
   const [selectedTag, setSelectedTag] = useState<string>("all");
+  const [searchQuery, setSearchQuery] = useState<string>("");
 
   const languages = useMemo(() => {
     const langs = new Set(jobs.map((job) => job.language).filter(Boolean));
@@ -39,6 +41,18 @@ export function JobList({ jobs }: JobListProps) {
   const filteredAndSortedJobs = useMemo(() => {
     let result = [...jobs];
 
+    // Apply search filter
+    if (searchQuery) {
+      const query = searchQuery.toLowerCase();
+      result = result.filter((job) =>
+        job.companyName.toLowerCase().includes(query) ||
+        job.repository.toLowerCase().includes(query) ||
+        job.description.toLowerCase().includes(query) ||
+        job.tags.some((tag) => tag.toLowerCase().includes(query)) ||
+        job.language?.toLowerCase().includes(query)
+      );
+    }
+
     if (selectedLanguage && selectedLanguage !== "all") {
       result = result.filter((job) => job.language === selectedLanguage);
     }
@@ -52,7 +66,7 @@ export function JobList({ jobs }: JobListProps) {
     });
 
     return result;
-  }, [jobs, selectedLanguage, selectedTag]);
+  }, [jobs, selectedLanguage, selectedTag, searchQuery]);
 
 
   return (
@@ -70,6 +84,13 @@ export function JobList({ jobs }: JobListProps) {
             </span>
           </div>
           <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
+            <Input
+              type="text"
+              placeholder="Search jobs..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full sm:w-[220px]"
+            />
             <Select value={selectedLanguage} onValueChange={setSelectedLanguage}>
               <SelectTrigger className="w-full sm:w-[180px] bg-white dark:bg-zinc-800 border-zinc-200 dark:border-zinc-700 hover:border-zinc-300 dark:hover:border-zinc-600 transition-all">
                 <SelectValue placeholder="Filter by Language" />

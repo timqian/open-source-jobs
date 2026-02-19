@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const jobCount = jobs.length;
   const uniqueCompanies = new Set(jobs.map(job => job.companyName)).size;
   const topLanguages = jobs
-    .filter(job => job.language)
+    .filter(job => job.language && typeof job.language === 'string')
     .reduce((acc, job) => {
       acc[job.language] = (acc[job.language] || 0) + 1;
       return acc;
@@ -19,7 +19,11 @@ export async function generateMetadata(): Promise<Metadata> {
     .slice(0, 3)
     .map(([lang]) => lang);
 
-  const description = `Discover ${jobCount} open source job opportunities from ${uniqueCompanies} companies building with ${topThreeLanguages.join(", ")} and more.`;
+  const totalLanguages = Object.keys(topLanguages).length;
+  const languageText = topThreeLanguages.length > 0 
+    ? topThreeLanguages.join(", ") + (totalLanguages > 3 ? " and more" : "")
+    : "various technologies";
+  const description = `Discover ${jobCount} open source job opportunities from ${uniqueCompanies} companies building with ${languageText}.`;
 
   return {
     title: "Open Source Jobs",

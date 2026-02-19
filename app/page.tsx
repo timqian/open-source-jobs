@@ -2,6 +2,52 @@ import { getJobs } from "@/lib/csv";
 import { JobList } from "@/components/job-list";
 import { PostJobModal } from "@/components/post-job-modal";
 import { Nav } from "@/components/nav";
+import type { Metadata } from "next";
+
+export async function generateMetadata(): Promise<Metadata> {
+  const jobs = await getJobs();
+  const jobCount = jobs.length;
+  const uniqueCompanies = new Set(jobs.map(job => job.companyName)).size;
+  const topLanguages = jobs
+    .filter(job => job.language)
+    .reduce((acc, job) => {
+      acc[job.language] = (acc[job.language] || 0) + 1;
+      return acc;
+    }, {} as Record<string, number>);
+  const topThreeLanguages = Object.entries(topLanguages)
+    .sort(([, a], [, b]) => b - a)
+    .slice(0, 3)
+    .map(([lang]) => lang);
+
+  const description = `Discover ${jobCount} open source job opportunities from ${uniqueCompanies} companies building with ${topThreeLanguages.join(", ")} and more.`;
+
+  return {
+    title: "Open Source Jobs",
+    description,
+    openGraph: {
+      title: "Open Source Jobs",
+      description,
+      url: "https://open-source-jobs.com",
+      siteName: "Open Source Jobs",
+      locale: "en_US",
+      type: "website",
+      images: [
+        {
+          url: "/og-image.svg",
+          width: 1200,
+          height: 630,
+          alt: "Open Source Jobs",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Open Source Jobs",
+      description,
+      images: ["/og-image.svg"],
+    },
+  };
+}
 
 export default async function Home() {
   const jobs = await getJobs();

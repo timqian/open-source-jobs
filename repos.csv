@@ -1,4 +1,5 @@
 Repository,Company Name,Company URL,Career URL,Tags,Language,Description
+Infrasity-Labs/developer-marketing-jobs,Infrasity,https://www.infrasity.com,https://www.infrasity.com/careers,"python, requests, playwright",Python,Daily-updated job board for developer marketing roles including DevRel, Technical Writing, Community, and Growth. Pulls from 10+ ATS sources automatically.
 maximhq/bifrost, Maxim AI, https://www.getmaxim.ai,https://www.getmaxim.ai/careers,"gateway, llm, mcp-server",Go,"Bifrost is a high-performance open source LLM gateway that connects 1000+ models through a single API interface with extremely high throughput."
 vitejs/vite,VoidZero Inc.,https://voidzero.dev,https://voidzero.dev/team,"frontend, javascript, typescript, vite",TypeScript,Next Generation Frontend Tooling
 elastic/elasticsearch,Elastic,https://www.elastic.co,https://www.elastic.co/about/careers/,"elasticsearch, java, search-engine",Java,"Free and Open Source, Distributed, RESTful Search Engine"

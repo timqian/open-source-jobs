@@ -5,9 +5,16 @@
     <link>https://open-source-jobs.com</link>
     <description>Latest job opportunities from open source projects</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Apr 2026 03:36:10 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 01:22:07 GMT</lastBuildDate>
     <atom:link href="https://open-source-jobs.com/rss.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Merge 9b299bea69ba119ea2a14ac9838b2d8ebaae8541 into 1b59f2388de7314d0fa013e231b0a887828fbb3a</title>
+      <link>https://github.com/timqian/open-source-jobs/commit/d4abdc23e55efa107430b248447c87dca193f464</link>
+      <guid isPermaLink="false">d4abdc23e55efa107430b248447c87dca193f464</guid>
+      <pubDate>Thu, 07 May 2026 09:31:09 GMT</pubDate>
+      <description><![CDATA[<h3>Added 1 repository:</h3><ul><li><strong><a href="https://github.com/Infrasity-Labs/developer-marketing-jobs">Infrasity-Labs/developer-marketing-jobs</a></strong> by Infrasity<br/>Daily-updated job board for developer marketing roles including DevRel<br/><a href="https://www.infrasity.com/careers">Apply for job</a></li></ul>]]></description>
+    </item>
     <item>
       <title>Add OpenSRE to job list (#172)</title>
       <link>https://github.com/timqian/open-source-jobs/commit/424dcdf4f066707c54611e8223bee2ba4237be1b</link>

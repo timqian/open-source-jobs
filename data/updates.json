@@ -1,5 +1,33 @@
 [
   {
+    "id": "d4abdc23e55efa107430b248447c87dca193f464",
+    "type": "repo-update",
+    "title": "Merge 9b299bea69ba119ea2a14ac9838b2d8ebaae8541 into 1b59f2388de7314d0fa013e231b0a887828fbb3a",
+    "message": "Merge 9b299bea69ba119ea2a14ac9838b2d8ebaae8541 into 1b59f2388de7314d0fa013e231b0a887828fbb3a",
+    "date": "2026-05-07T09:31:09.000Z",
+    "html_url": "https://github.com/timqian/open-source-jobs/commit/d4abdc23e55efa107430b248447c87dca193f464",
+    "author": {
+      "login": "Copilot",
+      "email": "198982749+Copilot@users.noreply.github.com",
+      "avatar_url": null,
+      "html_url": null
+    },
+    "changes": {
+      "added": [
+        {
+          "repository": "Infrasity-Labs/developer-marketing-jobs",
+          "companyName": "Infrasity",
+          "companyUrl": "https://www.infrasity.com",
+          "careerUrl": "https://www.infrasity.com/careers",
+          "tags": "python, requests, playwright",
+          "language": "Python",
+          "description": "Daily-updated job board for developer marketing roles including DevRel"
+        }
+      ],
+      "removed": []
+    }
+  },
+  {
     "id": "424dcdf4f066707c54611e8223bee2ba4237be1b",
     "type": "repo-update",
     "title": "Add OpenSRE to job list (#172)",

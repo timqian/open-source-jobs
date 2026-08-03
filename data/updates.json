@@ -1,5 +1,33 @@
 [
   {
+    "id": "91c9e8375deb054cf6ed92c1a9dfd9cfee95e1a1",
+    "type": "repo-update",
+    "title": "Merge 714c5f57d8e3d1b1a0c44e3bb6d3b0c9105708cb into a851a01cf3180d9f881d2c746317db3b3fe84a39",
+    "message": "Merge 714c5f57d8e3d1b1a0c44e3bb6d3b0c9105708cb into a851a01cf3180d9f881d2c746317db3b3fe84a39",
+    "date": "2026-08-03T03:27:38.000Z",
+    "html_url": "https://github.com/timqian/open-source-jobs/commit/91c9e8375deb054cf6ed92c1a9dfd9cfee95e1a1",
+    "author": {
+      "login": "Copilot",
+      "email": "198982749+Copilot@users.noreply.github.com",
+      "avatar_url": null,
+      "html_url": null
+    },
+    "changes": {
+      "added": [
+        {
+          "repository": "zed-industries/zed",
+          "companyName": "Zed",
+          "companyUrl": "https://zed.dev/",
+          "careerUrl": "https://zed.dev/jobs",
+          "tags": "text-editor, developer-tooling",
+          "language": "Rust",
+          "description": "Code at the speed of thought – Zed is a high-performance"
+        }
+      ],
+      "removed": []
+    }
+  },
+  {
     "id": "d4abdc23e55efa107430b248447c87dca193f464",
     "type": "repo-update",
     "title": "Merge 9b299bea69ba119ea2a14ac9838b2d8ebaae8541 into 1b59f2388de7314d0fa013e231b0a887828fbb3a",

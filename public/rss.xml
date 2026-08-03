@@ -5,9 +5,23 @@
     <link>https://open-source-jobs.com</link>
     <description>Latest job opportunities from open source projects</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 May 2026 01:22:07 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 03:43:44 GMT</lastBuildDate>
     <atom:link href="https://open-source-jobs.com/rss.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Merge 7e1ee40f399f68be5e4879b9e3128c632de90873 into a851a01cf3180d9f881d2c746317db3b3fe84a39</title>
+      <link>https://github.com/timqian/open-source-jobs/commit/0a9bfc9a7fe4f7615e61fa700416621cc74fed75</link>
+      <guid isPermaLink="false">0a9bfc9a7fe4f7615e61fa700416621cc74fed75</guid>
+      <pubDate>Mon, 03 Aug 2026 03:36:30 GMT</pubDate>
+      <description><![CDATA[<h3>Added 1 repository:</h3><ul><li><strong><a href="https://github.com/zed-industries/zed">zed-industries/zed</a></strong> by Zed<br/>Code at the speed of thought – Zed is a high-performance<br/><a href="https://zed.dev/jobs">Apply for job</a></li></ul>]]></description>
+    </item>
+    <item>
+      <title>Merge 714c5f57d8e3d1b1a0c44e3bb6d3b0c9105708cb into a851a01cf3180d9f881d2c746317db3b3fe84a39</title>
+      <link>https://github.com/timqian/open-source-jobs/commit/91c9e8375deb054cf6ed92c1a9dfd9cfee95e1a1</link>
+      <guid isPermaLink="false">91c9e8375deb054cf6ed92c1a9dfd9cfee95e1a1</guid>
+      <pubDate>Mon, 03 Aug 2026 03:27:38 GMT</pubDate>
+      <description><![CDATA[<h3>Added 1 repository:</h3><ul><li><strong><a href="https://github.com/zed-industries/zed">zed-industries/zed</a></strong> by Zed<br/>Code at the speed of thought – Zed is a high-performance<br/><a href="https://zed.dev/jobs">Apply for job</a></li></ul>]]></description>
+    </item>
     <item>
       <title>Merge 9b299bea69ba119ea2a14ac9838b2d8ebaae8541 into 1b59f2388de7314d0fa013e231b0a887828fbb3a</title>
       <link>https://github.com/timqian/open-source-jobs/commit/d4abdc23e55efa107430b248447c87dca193f464</link>

@@ -1,21 +1,7 @@
 "use client";
-
 import { Job } from "@/lib/csv";
-import {
-  Table,
-  TableBody,
-  TableCell,
-  TableHead,
-  TableHeader,
-  TableRow,
-} from "@/components/ui/table";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { useState, useMemo } from "react";
 
 interface JobListProps {
@@ -25,6 +11,9 @@ interface JobListProps {
 export function JobList({ jobs }: JobListProps) {
   const [selectedLanguage, setSelectedLanguage] = useState<string>("all");
   const [selectedTag, setSelectedTag] = useState<string>("all");
+  const [filter, setFilter] = useState("all");
+
+
 
   const languages = useMemo(() => {
     const langs = new Set(jobs.map((job) => job.language).filter(Boolean));
@@ -35,6 +24,13 @@ export function JobList({ jobs }: JobListProps) {
     const t = new Set(jobs.flatMap((job) => job.tags));
     return Array.from(t).sort();
   }, [jobs]);
+
+  const filteredJobs = useMemo(() => {
+    const Alljobs = new Set(jobs.map((job) => job.companyName).filter(Boolean));
+    return Array.from(Alljobs).sort();
+  }, [jobs]);
+
+
 
   const filteredAndSortedJobs = useMemo(() => {
     let result = [...jobs];
@@ -47,12 +43,16 @@ export function JobList({ jobs }: JobListProps) {
       result = result.filter((job) => job.tags.includes(selectedTag));
     }
 
+    if (filter && filter !== "all") {
+      result = result.filter((job) => job.companyName.includes(filter));
+    }
+
     result.sort((a, b) => {
       return a.companyName.localeCompare(b.companyName);
     });
 
     return result;
-  }, [jobs, selectedLanguage, selectedTag]);
+  }, [jobs, selectedLanguage, selectedTag,filter]);
 
 
   return (
@@ -62,7 +62,7 @@ export function JobList({ jobs }: JobListProps) {
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
           <div className="flex items-center gap-3">
             {/* <div className="w-1 h-8 bg-gradient-to-b from-blue-500 to-purple-500 rounded-full"></div> */}
-            <h2 className="text-2xl font-bold bg-gradient-to-r from-zinc-900 to-zinc-600 dark:from-zinc-100 dark:to-zinc-400 bg-clip-text text-transparent">
+            <h2 className="text-2xl font-bold bg-linear-to-r from-zinc-900 to-zinc-600 dark:from-zinc-100 dark:to-zinc-400 bg-clip-text text-transparent">
               All Repositories
             </h2>
             <span className="inline-flex items-center rounded-full bg-zinc-100 dark:bg-zinc-800 px-3 py-1 text-sm font-medium text-zinc-600 dark:text-zinc-400">
@@ -71,7 +71,7 @@ export function JobList({ jobs }: JobListProps) {
           </div>
           <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
             <Select value={selectedLanguage} onValueChange={setSelectedLanguage}>
-              <SelectTrigger className="w-full sm:w-[180px] bg-white dark:bg-zinc-800 border-zinc-200 dark:border-zinc-700 hover:border-zinc-300 dark:hover:border-zinc-600 transition-all">
+              <SelectTrigger className="w-full sm:w-45 bg-white dark:bg-zinc-800 border-zinc-200 dark:border-zinc-700 hover:border-zinc-300 dark:hover:border-zinc-600 transition-all">
                 <SelectValue placeholder="Filter by Language" />
               </SelectTrigger>
               <SelectContent>
@@ -84,8 +84,22 @@ export function JobList({ jobs }: JobListProps) {
               </SelectContent>
             </Select>
 
+            <Select value={filter} onValueChange={setFilter}>
+              <SelectTrigger className="w-full sm:w-45 bg-white dark:bg-zinc-800 border-zinc-200 dark:border-zinc-700 hover:border-zinc-300 dark:hover:border-zinc-600 transition-all">
+                <SelectValue placeholder="Filter by Language" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="all">All Jobs</SelectItem>
+                {filteredJobs.map((job) => (
+                  <SelectItem key={job} value={job}>
+                    {job}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+
             <Select value={selectedTag} onValueChange={setSelectedTag}>
-              <SelectTrigger className="w-full sm:w-[180px] bg-white dark:bg-zinc-800 border-zinc-200 dark:border-zinc-700 hover:border-zinc-300 dark:hover:border-zinc-600 transition-all">
+              <SelectTrigger className="w-full sm:w-45 bg-white dark:bg-zinc-800 border-zinc-200 dark:border-zinc-700 hover:border-zinc-300 dark:hover:border-zinc-600 transition-all">
                 <SelectValue placeholder="Filter by Tag" />
               </SelectTrigger>
               <SelectContent>
@@ -105,8 +119,8 @@ export function JobList({ jobs }: JobListProps) {
       <Table>
         <TableHeader>
           <TableRow>
-            <TableHead className="w-[200px] font-semibold text-zinc-900 dark:text-zinc-100">Company</TableHead>
-            <TableHead className="w-[350px] font-semibold text-zinc-900 dark:text-zinc-100">Repository</TableHead>
+            <TableHead className="w-50 font-semibold text-zinc-900 dark:text-zinc-100">Company</TableHead>
+            <TableHead className="w-87.5 font-semibold text-zinc-900 dark:text-zinc-100">Repository</TableHead>
             <TableHead className="font-semibold text-zinc-900 dark:text-zinc-100">Language</TableHead>
             <TableHead className="font-semibold text-zinc-900 dark:text-zinc-100">Tags</TableHead>
             <TableHead className="text-right font-semibold text-zinc-900 dark:text-zinc-100">Job Page</TableHead>
@@ -145,7 +159,7 @@ export function JobList({ jobs }: JobListProps) {
                         className="text-base hover:underline"
                       >
                         <span className="text-zinc-500 dark:text-zinc-400 font-normal">
-                          
+
                         </span>
                         <span className="font-semibold text-zinc-900 dark:text-zinc-100">{org}/{repo}</span>
                       </a>
